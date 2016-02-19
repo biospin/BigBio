@@ -23,7 +23,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
     - https://github.com/googlegenomics/getting-started-bigquery
     - http://googlegenomics.readthedocs.org/en/latest/
 - 빅데이터 유전체 분석
-  - Data Algorithms: Recipes for Scaling Up with Hadoop and Spark(http://shop.oreilly.com/product/0636920033950.do)
+    - [Data Algorithms: Recipes for Scaling Up with Hadoop and Spark](http://shop.oreilly.com/product/0636920033950.do)
 
 ## 장소
 1. 장소: 토즈 신촌본점 ( http://www.toz.co.kr/branch/main/index.htm?id=5 )
