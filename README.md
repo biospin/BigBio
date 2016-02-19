@@ -72,23 +72,23 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 5. 3|(통계기초) Practical Regression  :  (Chap. 1~3)
+|  1 |2016.5.3  |(통계기초) Practical Regression  :  (Chap. 1~3)
 |    |          |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장
-|  2 |2016. 5.10|(통계기초) Practical Regression : Dummy Regression
+|  2 |2016.5.10 |(통계기초) Practical Regression : Dummy Regression
 |    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장
-|  3 |2016. 5.17|(통계기초) Practical Regression : Regression Diagnostics
+|  3 |2016.5.17 |(통계기초) Practical Regression : Regression Diagnostics
 |    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( MLP)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장
-|  4 |2016. 5.24|(통계기초) Practical Regression : Model Selection
+|  4 |2016.5.24 |(통계기초) Practical Regression : Model Selection
 |    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(DBN)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장
-|  5 |2016. 5.31|(통계기초) Practical Regression  :  A complete example and missing data 
+|  5 |2016.5.31 |(통계기초) Practical Regression  :  A complete example and missing data 
 |    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 다양한 데이터 활용 )
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 7장
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 8장
-|  6 |2016. 6. 7|(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 다양한 데이터 활용 )
+|  6 |2016.6.7  |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 다양한 데이터 활용 )
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 9장
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 11장
 
