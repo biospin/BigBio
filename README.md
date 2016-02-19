@@ -1,6 +1,6 @@
-# DeepBio
+# BigBio
 
-<img src="https://github.com/biospin/DeepBio/blob/master/main_01.jpg" width="500" height="300" />
+<img src="https://github.com/biospin/DeepBio/blob/master/main.jpg?raw=true" width="500" height="300" />
 
 ## 스터디 정보
 빅데이터을 활용한  바이오인포매틱스 + 통계기초  + 딥러닝 실습에 대한 스터디입니다.
