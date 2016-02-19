@@ -27,8 +27,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 ## 참고 자료
 - [Bengio 교수의 딥러닝 강의]( http://www.deeplearningbook.org/ ) - 딥러닝에 대한 깊은 통찰을 얻을 수 있음.
-- [인공신경망과 딥러닝 무료 강좌 한글](http://cyber.dbguide.net/lecture.php?action=view&no=156)
-- [udacity의 Deep Learning강좌 영어](https://www.udacity.com/course/deep-learning--ud730)
+- [인공신경망과 딥러닝-무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=156)
+- [udacity의 Deep Learning-무료 동영상 강의 영어](https://www.udacity.com/course/deep-learning--ud730)
 
 ## 장소
 1. 장소: 토즈 신촌본점 ( http://www.toz.co.kr/branch/main/index.htm?id=5 )
