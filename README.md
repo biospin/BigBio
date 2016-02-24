@@ -1,4 +1,4 @@
-# BigBio
+# 빅바이오
 
 <img src="https://github.com/biospin/DeepBio/blob/master/main.jpg?raw=true" width="500" height="300" />
 
@@ -31,8 +31,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [udacity의 Deep Learning-무료 동영상 강의 영어](https://www.udacity.com/course/deep-learning--ud730)
 
 ## 장소
-1. 장소: 토즈 신촌본점 ( http://www.toz.co.kr/branch/main/index.htm?id=5 )
-2. 매주 미정 요일, 저녁 7시 30분~10시
+1. 장소: 토즈 신촌  아트레온토즈점 ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
+2. 매주 화요일, 저녁 7시 30분~10시
 3. 시작: 2016년03월 08일
   
 ## Schedule
@@ -41,12 +41,12 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 3. 8|(통계기초) Introductory Statistics with R (Chap. 1~2), 재현가능현 연구를 위한 도구 설정법 |
-|    |          |(딥러닝 실습) Getting Started
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 2장
-|  2 |2016. 3.15|(통계기초) Introductory Statistics with R (Chap. 3~4)
+|  1 |2016. 3. 8|(통계기초) Introductory Statistics with R (Chap. 1~2), 재현가능현 연구를 위한 도구 설정법(이승우) |
+|    |          |(딥러닝 실습) Getting Started(남광우)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 2장(지용기)
+|  2 |2016. 3.15|(통계기초) Introductory Statistics with R (Chap. 3~4)(성민경)
 |    |          |(딥러닝 실습) MNIST For ML Beginners
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 3장
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 3장(김가경)
 |  3 |2016. 3.22|(통계기초) Introductory Statistics with R (Chap. 5~6)
 |    |          |(딥러닝 실습) Deep MNIST for Experts
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 4장
