@@ -43,7 +43,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |----| ---------|----------------------------------------------|-----
 |  1 |2016. 3. 8|(통계기초) Introductory Statistics with R (Chap. 1~2), 재현가능현 연구를 위한 도구 설정법(이승우) |
 |    |          |(딥러닝 실습) Getting Started(남광우)
-|    |          |(빅데이터 기초) [직접 해보는 하둡 프로그래밍 : 2장(지용기0](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/hadoop/02_%ED%95%98%EB%91%A1%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.ipynb)
+|    |          |(빅데이터 기초) [직접 해보는 하둡 프로그래밍 : 2장(지용기)](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/hadoop/02_%ED%95%98%EB%91%A1%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.ipynb)
 |  2 |2016. 3.15|(통계기초) Introductory Statistics with R (Chap. 3~4)(성민경)
 |    |          |(딥러닝 실습) MNIST For ML Beginners
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 3장(김가경)
