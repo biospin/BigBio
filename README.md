@@ -32,6 +32,11 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [Spark - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=154)
 - [Hadoop - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=117)
 
+## 데이터 분석 실습용 데이터
+- 공유폴더  > 빅바이오 > 참고자료 > 학습용 데이터 
+- mrna_20160125-200855_type1_00.pkl.gz 와 같은 파일이 24개,  전체 용량 700MB
+
+
 ## 장소
 1. 장소: 토즈 신촌  아트레온토즈점 ( http://www.toz.co.kr/branch/main/index.htm?id=6 )
 2. 매주 화요일, 저녁 7시 30분~10시
@@ -48,7 +53,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 기초) [직접 해보는 하둡 프로그래밍 : 2장(지용기)](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/hadoop/02_%ED%95%98%EB%91%A1%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.ipynb)
 |  2 |2016. 3.15|(통계기초) Introductory Statistics with R (Chap. 3~4)(성민경)
 |    |          |(딥러닝 실습) MNIST For ML Beginners
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 3장(김가경)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 3장
 |  3 |2016. 3.22|(통계기초) Introductory Statistics with R (Chap. 5~6)
 |    |          |(딥러닝 실습) Deep MNIST for Experts
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 4장
