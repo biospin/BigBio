@@ -31,6 +31,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [udacity의 Deep Learning-무료 동영상 강의 영어](https://www.udacity.com/course/deep-learning--ud730)
 - [Spark - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=154)
 - [Hadoop - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=117)
+- [Deepmind DQN 설치](http://solarisailab.com/?p=222)
+- [논문 : Human-level control through deep reinforcement learning](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)
 
 ## 데이터 분석 실습용 데이터
 - 공유폴더  > 빅바이오 > 참고자료 > 학습용 데이터 
@@ -42,14 +44,18 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 2. 매주 화요일, 저녁 7시 30분~10시
 3. 시작: 2016년03월 08일
   
+## 스터디 공지 
+- [03월 15일 빅바이오:파트 1 - 2회차]( https://www.facebook.com/events/182714482108878/ ) 
+- [03월 08일 빅바이오:파트 1 - 1회차]( https://www.facebook.com/events/591176324363633/ )
+ 
 ## Schedule
 
 ### Part 1.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 3. 8|(통계기초) Introductory Statistics with R (Chap. 1~2), 재현가능현 연구를 위한 도구 설정법(이승우) |
-|    |          |(딥러닝 실습) Getting Started(남광우)
+|  1 |2016. 3. 8|(통계기초) Introductory Statistics with R (Chap. 1~2), 재현가능현 연구를 위한 도구 설정법(이승우) | [후기](https://www.facebook.com/groups/biospin/permalink/828788453897705/)
+|    |          |(딥러닝 실습) Getting Started(남광우) | [후기](https://www.facebook.com/groups/biospin/permalink/828790473897503/)
 |    |          |(빅데이터 기초) [직접 해보는 하둡 프로그래밍 : 2장(지용기)](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/hadoop/02_%ED%95%98%EB%91%A1%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.ipynb)
 |  2 |2016. 3.15|(통계기초) Introductory Statistics with R (Chap. 3~4)(성민경)
 |    |          |(딥러닝 실습) MNIST For ML Beginners
