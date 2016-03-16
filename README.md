@@ -58,14 +58,14 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(딥러닝 실습) Getting Started(남광우) | [후기](https://www.facebook.com/groups/biospin/permalink/828790473897503/)
 |    |          |(빅데이터 기초) [직접 해보는 하둡 프로그래밍 : 2장(지용기)](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/hadoop/02_%ED%95%98%EB%91%A1%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.ipynb)
 |  2 |2016. 3.15|(통계기초) [Introductory Statistics with R (Chap. 3~4)(성민경)](https://github.com/biospin/BigBio/blob/master/part01/week2_160315/R%20statistics_03_04.ipynb) | [후기](https://www.facebook.com/groups/biospin/permalink/832810410162176/)
-|    |          |(딥러닝 실습) [MNIST For ML Beginners의 발표자료](https://github.com/biospin/BigBio/blob/master/part01/week2_160315/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.odp), [MNIST For ML Beginners의 코드](https://github.com/biospin/BigBio/blob/master/part01/week2_160315/code.ipynb)
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 3장
-|  3 |2016. 3.22|(통계기초) Introductory Statistics with R (Chap. 5~6)
-|    |          |(딥러닝 실습) Deep MNIST for Experts
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 4장
-|  4 |2016. 3.29|(통계기초) Introductory Statistics with R (Chap. 7~8)
-|    |          |(딥러닝 실습) TensorFlow Mechanics 101
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 5장
+|    |          |(딥러닝 실습) [MNIST For ML Beginners의 발표자료(유재용)](https://github.com/biospin/BigBio/blob/master/part01/week2_160315/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.odp), [MNIST For ML Beginners의 코드](https://github.com/biospin/BigBio/blob/master/part01/week2_160315/code.ipynb)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 3장(우륭)
+|  3 |2016. 3.22|(통계기초) Introductory Statistics with R (Chap. 5~6)(조현선)
+|    |          |(딥러닝 실습) Deep MNIST for Experts(박혜진)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 4장(이재환)
+|  4 |2016. 3.29|(통계기초) Introductory Statistics with R (Chap. 7~8)(서승연)
+|    |          |(딥러닝 실습) TensorFlow Mechanics 101(박세진)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 5장(박지환)
 
 
 ### Part 2.
