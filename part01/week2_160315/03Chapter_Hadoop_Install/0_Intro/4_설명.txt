@@ -1,0 +1,32 @@
+# 처음 하둡을 공부할때, 그림과 같았다.
+
+	스토리 텔링...그림 보기
+	열심히 밑줄 긋고, 여러번 읽으면 ...
+
+# 밑줄 긋기보다는 많이 사용하세요.
+
+	집합은 수학공부할때, 다른 수학분야의 기초가 된다.
+	그래서 
+	     집합이 어려워도 앞으로 고등학교 수학 공부를 진행하는데 어려움이 없는 만큼만 먼저 배운다.
+	하둡 설치도 어려워도 앞으로          하둡 공부를 진행하는데 어려움이 없는 만큼만 먼저 배운다.
+	정리하면 하둡 설치에 밑줄 긋지 마세요.
+
+# 실행모드 3가지
+
+	스토리 텔링...그림보기
+	생라면, 설명대로 라면, 맛있는 라면
+
+	프레임워크를 만든 경험을 반영했다.
+	그냥 압축파일 풀면 끝	Standalone
+	기본가이드를 따르면 ...	Pseudo-distributed
+	복잡하지만 이상적인 ...	Fully-distrubuted
+
+	실제 개발하는 순서를 반영했다.
+	코드를 만들면서버그가 있는지 확인하고	Standalone
+	만들어진 코드가 잘 작동하는지 확인하고	Pseudo-distributed
+	실제 여러 서버에서 적용한다.			Fully-distributed
+
+						HDFS-daemon	MapReduce-daemon	Purpose
+	Standalone 			x			o					develop/debug
+	Pseudo-distributed	o			o					test
+	Fully-distrubuted	o			o					actually  ( Powerfull on 1000 nodes or more )

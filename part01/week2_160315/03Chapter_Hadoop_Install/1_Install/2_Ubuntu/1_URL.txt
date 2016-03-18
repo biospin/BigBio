@@ -1,0 +1,4 @@
+https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C)
+https://en.wikipedia.org/wiki/List_of_Linux_distributions
+http://www.ubuntu.com/download/
+/home/rwoo/Downloads/2_OS/2_Linux/0_Ubuntu

@@ -1,0 +1,8 @@
+# 1 install openJDK 1.7 by apt-get
+
+	sudo apt-get install openjdk-7-jdk
+
+# purge openJDK 1.7 by apt-get
+
+	sudo apt-get purge openjdk-7-jdk
+	http://dreamlog.tistory.com/224

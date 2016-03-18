@@ -1,0 +1,1 @@
+http://apache.mirror.cdnetworks.com/hadoop/common/
