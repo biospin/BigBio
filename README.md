@@ -76,13 +76,13 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(딥러닝 실습) Convolutional Neural Networks
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 6장
 |  2 |2016. 4.12|(통계기초) Introductory Statistics with R (Chap. 11~12)
-|    |          |(딥러닝 실습) MNIST For ML Beginners
+|    |          |(딥러닝 실습) TensorFlow Serving
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 7장
 |  3 |2016. 4.19|(통계기초)Introductory Statistics with R (Chap. 13~14)
-|    |          |(딥러닝 실습) Deep MNIST for Experts
+|    |          |(딥러닝 실습) Vector Representations of Words
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 8장, PIG대신에 Hive로 발표
 |  4 |2016. 4.26|(통계기초) Introductory Statistics with R (Chap. 15~16)
-|    |          |(딥러닝 실습) TensorFlow Mechanics 101
+|    |          |(딥러닝 실습) Recurrent Neural Networks
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 1 ~ 2장
 
 
@@ -90,42 +90,36 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016.5.3  |(통계기초) Practical Regression  :  (Chap. 1~3)
-|    |          |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )
+|  1 |2016.5.3  |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장
-|  2 |2016.5.10 |(통계기초) Practical Regression : Dummy Regression
-|    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장
-|  3 |2016.5.17 |(통계기초) Practical Regression : Regression Diagnostics
-|    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( MLP)
+|  2 |2016.5.10 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장
-|  4 |2016.5.24 |(통계기초) Practical Regression : Model Selection
-|    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(DBN)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장
-|  5 |2016.5.31 |(통계기초) Practical Regression  :  A complete example and missing data 
-|    |          |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 다양한 데이터 활용 )
+|  3 |2016.5.17 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( MLP)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 7장
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 8장
-|  6 |2016.6.7  |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 다양한 데이터 활용 )
+|  4 |2016.5.24 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(DBN)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 9장
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 11장
+
 
 ### Part 4.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 6.14|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
+|  1 |2016.5.31|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    What Is Google Genomics?,  Pricing and Quotas ,   Getting Started
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장
-|  2 |2016. 6.21|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
+|  2 |2016.6.7 |(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    Tutorials : Analyze Variants Using BigQuery
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  5장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  6장
-|  3 |2016. 6.28|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
+|  3 |2016. 6.14|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    Tutorials : Load Genomic Variants
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  7장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  8장
-|  4 |2016. 7. 5|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
+|  4 |2016. 6.21|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    Tutorials : Running Broad Institute GATK
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  9장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  10장
@@ -134,19 +128,19 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 7.12|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
+|  1 |2016. 6.28|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    Tutorials : Finding Public Data
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  11장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  12장
-|  2 |2016. 7.19|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
+|  2 |2016. 7. 5|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
 |    |          |    Process Data on Google Cloud
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  13장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  14장
-|  3 |2016. 7.26|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
+|  3 |2016. 7.12|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
 |    |          |   Access Genomic Data using
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  15장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  16장
-|  4 |2016. 8. 2|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
+|  4 |2016. 7.19|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
 |    |          |   Analyze Data in Google Genomics -> Analyze Reads
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  17장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  18장
@@ -155,19 +149,19 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 8. 9|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
+|  1 |2016. 7.26|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
 |    |          |   Analyze Data in Google Genomics -> Analyze Variants
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  19장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  20장
-|  2 |2016. 8.16|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
+|  2 |2016. 8. 2|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
 |    |          |   Analyze Data in Google Genomics -> Annotate Variants
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  21장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  22장
-|  3 |2016. 8.23|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
+|  3 |2016. 8. 9|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
 |    |          |   Analyze Data in Google Genomics -> Learn More 1
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  23장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  24장
-|  4 |2016. 8.30|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
+|  4 |2016. 8.16|(구글 genomics) http://googlegenomics.readthedocs.org/en/latest/ :
 |    |          |   Analyze Data in Google Genomics -> Learn More 2
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  25장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  26장
