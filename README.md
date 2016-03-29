@@ -33,6 +33,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [Hadoop - 무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=117)
 - [Deepmind DQN 설치](http://solarisailab.com/?p=222)
 - [논문 : Human-level control through deep reinforcement learning](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html)
+- [Distributed TensorFlow](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/how_tos/distributed/index.md)
 
 ## 데이터 분석 실습용 데이터
 - 공유폴더  > 빅바이오 > 참고자료 > 학습용 데이터 
