@@ -64,18 +64,19 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |  3 |2016. 3.22|(통계기초) Introductory Statistics with R (Chap. 5~6), [이론설명](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/R_chap5_6/Chapter%205.pdf)(조현선)
 |    |          |(딥러닝 실습) [Deep MNIST for Experts](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/tensorflow_DeepMNIST/DeepMNIST.ipynb), [용어설명](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/tensorflow_DeepMNIST/%EC%9A%A9%EC%96%B4%20%EC%84%A4%EB%AA%85.pptx)(박혜진)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 4장(이재환)
-|  4 |2016. 3.29|(통계기초) Introductory Statistics with R (Chap. 7~8)(서승연)
+|  4 |2016. 3.29|(통계기초) Introductory Statistics with R (Chap. 7~8)(서승연) | [후기](https://www.facebook.com/groups/biospin/permalink/844019602374590/)
 |    |          |(딥러닝 실습) TensorFlow Mechanics 101(박세진)
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 5장(박지환)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 5장(박지환), [참고자료](https://github.com/biospin/BigBio/blob/master/part01/week4_160329/hadoop/hadoop_05_wordcount.ipynb)
+
 
 
 ### Part 2.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 4. 5|(통계기초) Introductory Statistics with R (Chap. 9~10)
-|    |          |(딥러닝 실습) Convolutional Neural Networks
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 6장
+|  1 |2016. 4. 5|(통계기초) Introductory Statistics with R (Chap. 9~10)(이운섭)
+|    |          |(딥러닝 실습) Convolutional Neural Networks(한성국)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 6장(권선민)
 |  2 |2016. 4.12|(통계기초) Introductory Statistics with R (Chap. 11~12)
 |    |          |(딥러닝 실습) TensorFlow Serving
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 7장
