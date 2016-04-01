@@ -9,7 +9,7 @@ curl -fsSL https://get.docker.com/ | sh
 curl -fsSL https://get.docker.com/gpg | sudo apt-key add -
 ```
 
-## 이미지 저장 위치를 /home/docker로 변경
+## docker 이미지 저장 위치를 /home/docker로 변경
 ```
 sudo vi /etc/default/docker
 DOCKER_OPTS="-dns 8.8.8.8 -dns 8.8.4.4 -g /home/docker
