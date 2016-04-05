@@ -21,6 +21,13 @@ sudo start docker
 docker info  # 확인
 ```
 
+# 4GB을 갖는 docker machine 생성
+- tensorflow을 컴파일할때 메모리가 많이 필요하므로 필수임.
+```
+docker-machine rm default 
+docker-machine create -d virtualbox --virtualbox-memory 4096 default
+```
+
 # docker에 텐서플로우용 이미지 만들기
 - Dockerfile을 작업위치에 만들고 내용을 넣어줌.
 ```
@@ -57,6 +64,7 @@ docker run -i -t  -p 1022:22 --name bigbio unbuntu/bigbio /bin/bash
 sudo apt-get update -y
 sudo apt-get install git python-numpy swig python-dev libc6-dev g++ zlib1g-dev unzip -y
 sudo apt-get install software-properties-common python-software-properties -y
+
 ```
 
 ## Installation for Linux
@@ -100,7 +108,20 @@ bazel-bin/tensorflow/cc/tutorials_example_trainer ## test
 ### 분산버전 설치 빌드
 
 - http://qiita.com/ashitani/items/2e48729e78a9f77f9790
+- https://research.euranova.eu/installing-tensorflow-with-distributed-gpu-support/
+
 
 ```
+# Build the gRPC server
 bazel build --jobs 2 -c opt //tensorflow/core/distributed_runtime/rpc:grpc_tensorflow_server
+
+# Build and install the pip package
+bazel build --jobs 2 -c opt //tensorflow/tools/pip_package:build_pip_package
+bazel-bin/tensorflow/tools/pip_package/build_pip_package   /tmp/tensorflow_pkg
+sudo pip install /tmp/tensorflow_pkg/tensorflow-0.7.1-py2-none-any.whl
+or 
+sudo pip install /tmp/tensorflow_pkg/tensorflow-0.7.1-py2-none-linux_x86_64.whl
 ```
+
+--local_resources 2048,2.0,1.0
+
