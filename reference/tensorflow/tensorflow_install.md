@@ -62,7 +62,7 @@ docker run -i -t  -p 1022:22 --name bigbio unbuntu/bigbio /bin/bash
 ## 준비
 ```
 sudo apt-get update -y
-sudo apt-get install git python-numpy swig python-dev libc6-dev g++ zlib1g-dev unzip -y
+sudo apt-get install git python-numpy swig python-dev python-pip libc6-dev g++ zlib1g-dev unzip -y
 sudo apt-get install software-properties-common python-software-properties -y
 
 ```
@@ -116,12 +116,50 @@ bazel-bin/tensorflow/cc/tutorials_example_trainer ## test
 bazel build --jobs 2 -c opt //tensorflow/core/distributed_runtime/rpc:grpc_tensorflow_server
 
 # Build and install the pip package
+sudo pip install wheel
 bazel build --jobs 2 -c opt //tensorflow/tools/pip_package:build_pip_package
 bazel-bin/tensorflow/tools/pip_package/build_pip_package   /tmp/tensorflow_pkg
-sudo pip install /tmp/tensorflow_pkg/tensorflow-0.7.1-py2-none-any.whl
-or 
-sudo pip install /tmp/tensorflow_pkg/tensorflow-0.7.1-py2-none-linux_x86_64.whl
+sudo pip install /tmp/tensorflow_pkg/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
 ```
 
---local_resources 2048,2.0,1.0
+### 단일컴퓨터에서동작 확인
+- PC에서 서버를 시작시키고, PC 클라이언트에서 서버를 연결함.
+
+```
+# 서버 실행
+bazel-bin/tensorflow/core/distributed_runtime/rpc/grpc_tensorflow_server --cluster_spec='local|localhost:2222' --job_name=local --task_index=0 &
+```
+
+```
+# 클라이언트 실행
+cd ~/tensorflow/tensorflow
+python
+>>> import tensorflow as tf
+>>> c = tf.constant ( "Hello, distributed TensorFlow!")
+>>> sess = tf.Session ( "grpc://localhost:2222")
+>>> sess.run (c)
+'Hello, distributed TensorFlow!'
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

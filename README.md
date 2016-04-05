@@ -26,6 +26,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
     - [Data Algorithms: Recipes for Scaling Up with Hadoop and Spark](http://shop.oreilly.com/product/0636920033950.do)
 
 ## 참고 자료
+- [Markdown 문법](https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md)
 - [Bengio 교수의 딥러닝 강의]( http://www.deeplearningbook.org/ ) - 딥러닝에 대한 깊은 통찰을 얻을 수 있음.
 - [인공신경망과 딥러닝-무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=156)
 - [udacity의 Deep Learning-무료 동영상 강의 영어](https://www.udacity.com/course/deep-learning--ud730)
@@ -56,7 +57,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 3. 8|(통계기초) Introductory Statistics with R (Chap. 1~2), 재현가능현 연구를 위한 도구 설정법(이승우) | [후기](https://www.facebook.com/groups/biospin/permalink/828788453897705/)
+|  1 |2016. 3. 8|(통계기초) [Introductory Statistics with R (Chap. 1~2)(이승우)](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/R%20%EC%8B%9C%EC%9E%91%ED%95%B4%EB%B3%B4%EA%B8%B0.odp) | [후기](https://www.facebook.com/groups/biospin/permalink/828788453897705/)
 |    |          |(딥러닝 실습) Getting Started(남광우) | [후기](https://www.facebook.com/groups/biospin/permalink/828790473897503/)
 |    |          |(빅데이터 기초) [직접 해보는 하둡 프로그래밍 : 2장(지용기)](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/hadoop/02_%ED%95%98%EB%91%A1%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.ipynb)
 |  2 |2016. 3.15|(통계기초) [Introductory Statistics with R (Chap. 3~4)(성민경)](https://github.com/biospin/BigBio/blob/master/part01/week2_160315/R%20statistics_03_04.ipynb) | [후기](https://www.facebook.com/groups/biospin/permalink/832810410162176/)
