@@ -48,6 +48,9 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 3. 시작: 2016년03월 08일
   
 ## 스터디 공지 
+- [04월 05일 빅바이오:파트 2 - 1회차]( https://www.facebook.com/events/1651381028461059/ )
+- [03월 29일 빅바이오:파트 1 - 4회차]( https://www.facebook.com/events/1991849057707747/ )
+- [03월 22일 빅바이오:파트 1 - 3회차]( https://www.facebook.com/events/589430871207898/ )
 - [03월 15일 빅바이오:파트 1 - 2회차]( https://www.facebook.com/events/182714482108878/ ) 
 - [03월 08일 빅바이오:파트 1 - 1회차]( https://www.facebook.com/events/591176324363633/ )
  
@@ -55,7 +58,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 ### Part 1.
 
-|seq.|    날짜      |내용                                                                                     | 후기
+|seq.|    날짜      |내용                                                                                      | 후기
 |----| ---------|----------------------------------------------|-----
 |  1 |2016. 3. 8|(통계기초) [Introductory Statistics with R (Chap. 1~2)(이승우)](https://github.com/biospin/BigBio/blob/master/part01/week1_160308/R%20%EC%8B%9C%EC%9E%91%ED%95%B4%EB%B3%B4%EA%B8%B0.odp) | [후기](https://www.facebook.com/groups/biospin/permalink/828788453897705/)
 |    |          |(딥러닝 실습) Getting Started(남광우) | [후기](https://www.facebook.com/groups/biospin/permalink/828790473897503/)
@@ -66,7 +69,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |  3 |2016. 3.22|(통계기초) Introductory Statistics with R (Chap. 5~6), [이론설명](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/R_chap5_6/Chapter%205.pdf)(조현선)
 |    |          |(딥러닝 실습) [Deep MNIST for Experts](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/tensorflow_DeepMNIST/DeepMNIST.ipynb), [용어설명](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/tensorflow_DeepMNIST/%EC%9A%A9%EC%96%B4%20%EC%84%A4%EB%AA%85.pptx)(박혜진)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 4장(이재환)
-|  4 |2016. 3.29|(통계기초) Introductory Statistics with R (Chap. 7~8)(서승연) | [후기](https://www.facebook.com/groups/biospin/permalink/844019602374590/)
+|  4 |2016. 3.29|(통계기초) [Introductory Statistics with R (Chap. 7~8)(서승연)](https://github.com/biospin/BigBio/blob/master/part01/week4_160329/%EB%B9%85%EB%B0%94%EC%9D%B4%EC%98%A4_%EC%84%9C%EC%8A%B9%EC%97%B04%ED%9A%8C%EC%B0%A8.pdf) | [후기](https://www.facebook.com/groups/biospin/permalink/844019602374590/)
 |    |          |(딥러닝 실습) TensorFlow Mechanics 101(박세진)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 5장(박지환), [참고자료](https://github.com/biospin/BigBio/blob/master/part01/week4_160329/hadoop/hadoop_05_wordcount.ipynb)
 
@@ -76,17 +79,17 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 4. 5|(통계기초) Introductory Statistics with R (Chap. 9~10)(이운섭)
+|  1 |2016. 4. 5|(통계기초) Introductory Statistics with R (Chap. 9~10)(이운섭) | [후기](https://www.facebook.com/groups/biospin/permalink/849355345174349/)
 |    |          |(딥러닝 실습) Convolutional Neural Networks(한성국)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 6장(권선민)
-|  2 |2016. 4.12|(통계기초) Introductory Statistics with R (Chap. 11~12)
-|    |          |(딥러닝 실습) TensorFlow Serving
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 7장
-|  3 |2016. 4.19|(통계기초)Introductory Statistics with R (Chap. 13~14)
-|    |          |(딥러닝 실습) Vector Representations of Words
-|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 8장, PIG대신에 Hive로 발표
-|  4 |2016. 4.26|(통계기초) Introductory Statistics with R (Chap. 15~16)
-|    |          |(딥러닝 실습) Recurrent Neural Networks
+|  2 |2016. 4.12|(통계기초) Introductory Statistics with R (Chap. 11~12)(이승현)
+|    |          |(딥러닝 실습) TensorFlow Serving(손준영)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 7장(박혜진)
+|  3 |2016. 4.19|(통계기초)Introductory Statistics with R (Chap. 13~14)(서승연)
+|    |          |(딥러닝 실습) Vector Representations of Words(한성국)
+|    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 8장(우륭)
+|  4 |2016. 4.26|(통계기초) Introductory Statistics with R (Chap. 15~16)(유재용)
+|    |          |(딥러닝 실습) Recurrent Neural Networks(지용기)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 1 ~ 2장
 
 
