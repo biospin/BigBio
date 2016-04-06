@@ -71,6 +71,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(딥러닝 실습) [Deep MNIST for Experts](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/tensorflow_DeepMNIST/DeepMNIST.ipynb), [용어설명](https://github.com/biospin/BigBio/blob/master/part01/week3_160322/tensorflow_DeepMNIST/%EC%9A%A9%EC%96%B4%20%EC%84%A4%EB%AA%85.pptx)(박혜진)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 4장(이재환)
 |  4 |2016. 3.29|(통계기초) [Introductory Statistics with R (Chap. 7~8)(서승연)](https://github.com/biospin/BigBio/blob/master/part01/week4_160329/%EB%B9%85%EB%B0%94%EC%9D%B4%EC%98%A4_%EC%84%9C%EC%8A%B9%EC%97%B04%ED%9A%8C%EC%B0%A8.pdf) | [후기](https://www.facebook.com/groups/biospin/permalink/844019602374590/)
+|    |          |(통계기초) [7장 실습](https://github.com/biospin/BigBio/blob/master/reference/statistics/chap07_AnalysisOfvariance.ipynb), [8장실습](https://github.com/biospin/BigBio/blob/master/reference/statistics/chap08_Tabular%20data.ipynb) 
 |    |          |(딥러닝 실습) TensorFlow Mechanics 101(박세진)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 5장(박지환), [참고자료](https://github.com/biospin/BigBio/blob/master/part01/week4_160329/hadoop/hadoop_05_wordcount.ipynb)
 
