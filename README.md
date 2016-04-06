@@ -26,6 +26,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
     - [Data Algorithms: Recipes for Scaling Up with Hadoop and Spark](http://shop.oreilly.com/product/0636920033950.do)
 
 ## 참고 자료
+- [윈도우즈 환경에서 Jupyter와 R연동](https://github.com/biospin/BigBio/blob/master/reference/Jupyter%EC%99%80R%EC%97%B0%EB%8F%99%EB%B0%A9%EB%B2%95.md)
 - [Markdown 문법](https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md)
 - [Bengio 교수의 딥러닝 강의]( http://www.deeplearningbook.org/ ) - 딥러닝에 대한 깊은 통찰을 얻을 수 있음.
 - [인공신경망과 딥러닝-무료 동영상 강의 한글](http://cyber.dbguide.net/lecture.php?action=view&no=156)
