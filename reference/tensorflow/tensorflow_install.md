@@ -127,6 +127,7 @@ sudo pip install /tmp/tensorflow_pkg/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
 
 ```
 # 서버 실행
+cd ~/tensorflow/
 bazel-bin/tensorflow/core/distributed_runtime/rpc/grpc_tensorflow_server --cluster_spec='local|localhost:2222' --job_name=local --task_index=0 &
 ```
 
