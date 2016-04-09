@@ -1,0 +1,75 @@
+---
+title : "데이터분석방법론1 과제"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 이름 : 홍길동
+### 학번 : 160000-00000
+
+---
+## 1주 
+
+### 1-3. Install R Commader and solve the following problems (1~4). 
+
+1) After starting R and the R Commander, read the UN data from Nations.txt. 
+You must first download this data file from the course website and navigate to its location, or alternatively copy and paste its URL (web address), when prompted for the “file name.”  Use the menus: Data ► Import data ► from text file, clipboard, or URL ... . After the data set is read into the R Commander, you can look at it by pressing the View data set button near the top of the R Commander window. 
+For details, see the example that begins on page 10 of Getting Started With the R Commander (available via Help ► Introduction to the R Commander and on the course website).
+
+```{r}
+#install.packages(c('ISwR'),  repos="http://cran.nexr.com/"  )  # 한번만 실행.
+library(ISwR)
+attach(red.cell.folate)
+summary(red.cell.folate)
+```
+
+- 위의 코드의 결과에 대한 해석을 이와 같이 추가해봄.
+- red.cell.folate 데이터는 folate 라는 연속형 변수와  ventilation라는 범주형 데이터를 갖음.
+- ventilation범주는 3개 그룹으로 구성되고  ventilation에 따른 folate값에 대한 영향이 있는지 여부를 알아보고자 함.
+
+
+```{r}
+redcell.lm <- lm(folate~ventilation)
+summary( redcell.lm  )
+anova( redcell.lm )
+```
+
+- 분산분석표를 해석해보자. ~~~
+- p-Value 가 0.05보다 작아서 모든 그룹에서 분산이 동일하다는 귀무가설을 기각하므로 그룹간의 분산은 다르다. => 여기서는 3그룹이 있고, 이중에 하나의 그룹이라도 다른 그룹과 분산이 다른다라고 해석함.
+- 어떤 그룹이 그룹이 다른지는 다른 분석방법을 적용함.
+
+2)	Obtain basic statistics and construct a histogram, stemplot, and boxplot for GDP per capita (gdp in the data set). 
+
+```{r}
+attach(juul)
+anova(lm(igf1~tanner))
+```
+
+- 이와 같이 하면 잘못되었음.
+- 분산분석은 그룹별( 범주형 변수)에 따른 효과(연속형 변수)의 차이를 알아보기 위한 방법임.
+- tanner는 이 데이터셋에 연속형 변수 형식으로 저장되어서 lm()을 하면 선형회귀를 값을 구함.
+
+
+## 2주 
+### 2-1  Calculate the probability for each of the following events: 
+(a) A standard normally distributed variable is larger than 3. 
+
+```{r}
+juul$tanner <- factor( juul$tanner,  labels=c("I","II","III","IV","V") )
+summary( juul$tanner  )
+anova(lm(igf1~tanner))
+```
+
+- tanner변수의 자유도가 4이므로 5그룹으로 나누어서 그룹별 차이가 있는지 잘 분석하고 있음.
+- p-value의 해석 ~~~
+
+(b) A normally distributed variable with mean 35 and standard deviation 6 is larger than42. 
+(c) Getting 10 out of 10 successes in a binomial distribution with probability 0.8. 
+(d) X < 0.9 when X has the standard uniform distribution. 
+(e)  X > 6.5 in  distribution with 2 degrees of freedom.
+
+
+
