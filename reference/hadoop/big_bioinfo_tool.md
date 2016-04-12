@@ -1,6 +1,6 @@
 
 
-# Hadooop및 Spark로 구현된 바이오인포 도구들
+# Hadoop및 Spark로 구현된 바이오인포 도구들
 
 - 1. BigBWA : https://github.com/citiususc/BigBWA
 - 2. SeqHBase : http://seqhbase.omicspace.org/
