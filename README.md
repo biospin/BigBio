@@ -38,6 +38,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [Distributed TensorFlow](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/how_tos/distributed/index.md)
 - [분산 TensorFlow 컴파일 및 테스트](https://github.com/biospin/BigBio/blob/master/reference/tensorflow/tensorflow_install.md)
 - [빅데이터분석-무료 동영상 강의 한글](https://github.com/biospin/BigBio/blob/master/reference/hadoop/bigdata_analysis.md)
+- [하둡 및 Spark로 개발된 바이오인포 도구 목록](https://github.com/biospin/BigBio/blob/master/reference/hadoop/big_bioinfo_tool.md)
 
 ## 데이터 분석 실습용 데이터
 - 공유폴더  > 빅바이오 > 참고자료 > 학습용 데이터 
