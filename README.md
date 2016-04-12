@@ -84,9 +84,10 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
 |  1 |2016. 4. 5|(통계기초) Introductory Statistics with R (Chap. 9~10)(이운섭) | [후기](https://www.facebook.com/groups/biospin/permalink/849355345174349/)
-|    |          |(딥러닝 실습) Convolutional Neural Networks(한성국)
+|    |          |(딥러닝 실습) [Convolutional Neural Networks(한성국)](https://github.com/biospin/BigBio/blob/master/part02/week01_160405/tensorflow/convolutionalNeuralNetworks-%ED%95%9C%EC%84%B1%EA%B5%AD.pdf), [GuidetoConvolution.pdf](https://github.com/biospin/BigBio/blob/master/part02/week01_160405/tensorflow/GuidetoConvolution.pdf), [VisualizingCNN.pdf](https://github.com/biospin/BigBio/blob/master/part02/week01_160405/tensorflow/VisualizingCNN.pdf)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 6장(권선민)
-|  2 |2016. 4.12|(통계기초) Introductory Statistics with R (Chap. 11~12)(이승현)
+|  2 |2016. 4.12|(통계기초) [Introductory Statistics with R (Chap. 11)(이승현)](https://github.com/biospin/BigBio/blob/master/part02/week02_160412/R_11_Multiple%20regression.ipynb)
+|    |          |(통계기초) [Introductory Statistics with R (Chap. 12)(이승현)](https://github.com/biospin/BigBio/blob/master/part02/week02_160412/R_12_Linear%20models.ipynb)
 |    |          |(딥러닝 실습) TensorFlow Serving(손준영)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 7장(박혜진)
 |  3 |2016. 4.19|(통계기초)Introductory Statistics with R (Chap. 13~14)(서승연)
