@@ -12,7 +12,7 @@ curl -fsSL https://get.docker.com/gpg | sudo apt-key add -
 ## docker 이미지 저장 위치를 /home/docker로 변경
 ```
 sudo vi /etc/default/docker
-DOCKER_OPTS="-dns 8.8.8.8 -dns 8.8.4.4 -g /home/docker
+DOCKER_OPTS="-dns 8.8.8.8 -dns 8.8.4.4 -g /home/docker"
 
 sudo stop docker
 tar -zcC /var/lib docker > /home/var_lib_docker-backup-$(date +%s).tar.gz
