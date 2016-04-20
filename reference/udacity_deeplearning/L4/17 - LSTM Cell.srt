@@ -1,0 +1,113 @@
+1
+00:00:00,510 --> 00:00:04,370
+당신은 이 gate에 입력값을 
+0으로 곱한 것을 쓸 수 있습니다.
+You can also write at those gates as
+multiplying the inputs either by 0,
+
+2
+00:00:04,370 --> 00:00:08,990
+그때는 그 gate가 닫힌것이 됩니다.
+또는 1을 곱하면, 그 gate는 열리것이 됩니다.
+when the gate is closed, or
+by 1, when the gate is open.
+
+3
+00:00:08,990 --> 00:00:12,400
+모두 좋습니다. 그러나,neural networks과
+같이 이해해야 할 것은 무엇인가요?
+That's all fine, but what does it
+have to do with neural networks?
+
+4
+00:00:12,400 --> 00:00:15,750
+각각의 gate에서 가부에 대한 결정을 하는 대신에
+Imagine that instead of having
+binary decisions at each gate,
+
+5
+00:00:15,750 --> 00:00:17,990
+당신은 연속적인 결정을 하는것에 대해서 상상해보자.
+you had continuous decisions.
+
+6
+00:00:17,990 --> 00:00:22,820
+예를 들어, 입력에 yes-no gate 대신에
+입력값을 가지고 오고
+For example, instead of yes-no gate
+at the input, you take the input and
+
+7
+00:00:22,820 --> 00:00:25,700
+0과 1사이의 어떤 값으로 곱할 수 있습니다.
+multiply it by a value
+that's between 0 and 1.
+
+8
+00:00:25,700 --> 00:00:28,880
+만약 정확히 0 이라면, 입력값은 들어올 수 없습니다.
+If it's exactly 0, no input comes in.
+
+9
+00:00:28,880 --> 00:00:32,060
+만약 정확히 1이라면, 입력값 
+전체를 메모리에 쓰게 됩니다.
+If it's exactly 1,
+you write it entirely to memory.
+
+10
+00:00:32,060 --> 00:00:35,610
+0~1사이의 어떤값은 부분적으로 메모리에 추가하게 됩니다.
+Anything in between can be
+added partially to the memory.
+
+11
+00:00:37,028 --> 00:00:38,770
+우리에게 매우 흥미롭게 되었습니다.
+Now that becomes very interesting for
+
+12
+00:00:38,770 --> 00:00:43,190
+만약 곱셈 계수가 연속함수이고,
+us, because if that multiplicative
+factor is a continuous function
+
+13
+00:00:43,190 --> 00:00:47,180
+미분가능하다면, 도함수를 가질 수 있다는 의미입니다.
+that's also differentiable, that
+means we can take derivatives of it.
+
+14
+00:00:47,180 --> 00:00:49,280
+그리고, 도함수를 통해서 back propagate을
+할 수 있다는 의미입니다.
+And that also means we can
+back propagate through it.
+
+15
+00:00:50,530 --> 00:00:52,930
+정확히 LSTM이란 것은
+That's exactly what an LSTM is.
+
+16
+00:00:52,930 --> 00:00:54,950
+메모리의 단순한 모델을 가지고 있다는 것입니다.
+We take this simple model of memory,
+
+17
+00:00:54,950 --> 00:00:57,820
+우리는 연속함수를 가지고 모든 것을 대체합니다.
+we replace everything with
+continuous functions.
+
+18
+00:00:57,820 --> 00:01:00,550
+RNN의 핵심적인 새로운 Lowell machine을
+만들어보자.
+And make that the new Lowell
+machine that's at the heart
+
+19
+00:01:00,550 --> 00:01:01,850
+of a recurrent neural network.

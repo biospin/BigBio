@@ -1,0 +1,31 @@
+1
+00:00:00,690 --> 00:00:04,540
+sequence models에 대한 다른 재미있는 경우를 보자.
+Let's look at some other fun
+use cases for sequence models.
+
+2
+00:00:04,540 --> 00:00:08,830
+deep models의 가장 재미있는 측면을 
+보고 있는것을 기억하자.
+Remember, we've seen that one of the
+most entertaining aspects of deep models
+
+3
+00:00:08,830 --> 00:00:10,170
+그것(LSTM??)들을 가지고 당신은 Legos와 비슷하게 가지고 노는것이다.
+is that you can play Legos with them.
+
+4
+00:00:10,170 --> 00:00:13,070
+그것들은 섞고, 그것들을 서로 붙이고
+You can mix them and
+attach them together, and
+
+5
+00:00:13,070 --> 00:00:16,470
+최종적으로 직접 모든 일을 최적화할 수 있도록 
+back prop을 사용할 수 있습니다.
+then you can use back prop to optimize
+the whole thing directly end to end.
+

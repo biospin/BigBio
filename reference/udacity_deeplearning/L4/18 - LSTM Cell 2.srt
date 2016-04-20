@@ -1,0 +1,85 @@
+1
+00:00:00,570 --> 00:00:03,300
+각각의 gate에 대한 gating values은
+The gating values for each gate get
+
+2
+00:00:03,300 --> 00:00:07,680
+입력 파라메터에 대한 간단한 로직스틱회귀에
+의해서 조절되어집니다.
+controlled by a tiny logistic
+regression on the input parameters.
+
+3
+00:00:07,680 --> 00:00:11,060
+각각의 gate는 파라메터를 공유합니다.
+Each of them has its own
+set of shared parameters.
+
+4
+00:00:11,060 --> 00:00:14,180
+추가되어 있는 hyperbolic tension은
+And there's an additional hyperbolic
+tension sprinkled in here
+
+5
+00:00:14,180 --> 00:00:16,600
+-1 과 1사이의 출력을 유지하기 위해서입니다.
+to keep the outputs between -1 and 1.
+
+6
+00:00:16,600 --> 00:00:20,220
+이것은 복잡해보이지만 수학으로 쓸수 있습니다.
+It looks complicated but
+once you write down the math
+
+7
+00:00:20,220 --> 00:00:23,018
+할당문에서 보는것 같이
+이것은 말 그대로 다섯줄의 코드입니다.
+It's literally five lines of code,
+as you'll see in the assignment.
+
+8
+00:00:23,018 --> 00:00:27,930
+이것은 잘 동작하고 연속이며 모든 방법으로 미분 가능하며,
+And it's well-behaved, continues,
+and differentiable all the way,
+
+9
+00:00:27,930 --> 00:00:31,360
+매우 쉽게 이것의 파라메터를을 
+최적화 할 수 있다는 의미입니다.
+which means we can optimize
+those parameters very easily.
+
+10
+00:00:31,360 --> 00:00:33,610
+그래서 왜 LSTM은 동작합니까?
+So why do LSTMs work?
+
+11
+00:00:33,610 --> 00:00:37,710
+너무 많은 상세사항 없이도,
+모든 gate들은 모델에 도움이 됩니다.
+Without going into too many details,
+all these little gates help the model
+
+12
+00:00:37,710 --> 00:00:42,870
+필요할때는 메모리를 더 오래 유지하고
+필요없을때는 그것을 무시하도록 해서
+keep its memory longer when it needs to,
+and ignore things when it should.
+
+13
+00:00:42,870 --> 00:00:46,010
+결과로써, 최적화는 더 쉽고
+As a result,
+the optimization is much easier, and
+
+14
+00:00:46,010 --> 00:00:48,090
+gradient vanishing는 사라집니다.
+the gradient vanishing, vanishes.
+

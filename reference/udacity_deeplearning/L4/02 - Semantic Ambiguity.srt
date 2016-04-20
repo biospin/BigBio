@@ -1,0 +1,110 @@
+1
+00:00:00,390 --> 00:00:03,980
+또 다른 문제로 우리는 다양한 
+단어들을 사용하고 있습니다.
+Another problem is that we
+often use different words
+
+2
+00:00:03,980 --> 00:00:06,100
+거의 같은 의미이지만..
+to mean almost the same thing.
+
+3
+00:00:06,100 --> 00:00:08,709
+cat 또는 kitty(고양이새끼)가 있습니다. 
+You can say cat or you can say kitty.
+
+4
+00:00:08,709 --> 00:00:11,761
+그 2단어는 같이 않지만,
+거의 비슷한 의미를 갖습니다.
+They're not the same, but
+they mean similar things.
+
+5
+00:00:11,761 --> 00:00:15,146
+우리는 정말로 비슷한 물건을 가지고 
+있다는것을 기억하세요. 
+Remember that when we have things
+that are similar, we really,
+
+6
+00:00:15,146 --> 00:00:18,950
+그 비슷한 물건 사이에는 
+parameters가 공유됩니다. 
+really would like to share
+parameters between them.
+
+7
+00:00:18,950 --> 00:00:22,350
+그러나 kitty는 정확히는 
+cat과는 다릅니다.
+But kitty is completely
+different from cat.
+
+8
+00:00:22,350 --> 00:00:24,510
+그래서, 그것들 사이의 어떤것을
+공유하기를 원한다면,
+So if we want to share
+anything between them.
+
+9
+00:00:24,510 --> 00:00:27,770
+문서 분류에 대한 것을 배울 것이다.
+We're going to have to learn
+that they are related.
+
+10
+00:00:27,770 --> 00:00:30,270
+왜냐하면, 그것들은 deep learning에 대한
+매우 비중이 있는 문제들이다.
+So that's a very big problem for
+deep learning.
+
+11
+00:00:30,270 --> 00:00:32,770
+중요한 단어를 찾고 싶어한다.
+We'd like to see those
+important words often enough
+
+12
+00:00:32,770 --> 00:00:35,430
+자동적으로 의미를 배우도록 
+할 수 있도록..
+to be able to learn
+the meanings automatically.
+
+13
+00:00:35,430 --> 00:00:38,795
+각각의 단어들의 관계를 배울 수 있도록
+하고 싶다.
+And we'd also like to learn how
+words relate to each other so
+
+14
+00:00:38,795 --> 00:00:40,710
+단어들 사이의 파라메타를 공유해서..
+that we can share
+parameters between them.
+
+15
+00:00:41,890 --> 00:00:44,510
+그러나, 이것들은 분류된 데이터를
+수집하는 것을 의미한다.
+But that would mean collecting
+a lot of label data.
+
+16
+00:00:44,510 --> 00:00:47,930
+실제로, 분류된 데이터를 그렇게
+많이는 필요하지 않다.
+In fact, it would require
+way too much label data for
+
+17
+00:00:47,930 --> 00:00:49,590
+정말 중요한 작업에 대해서는..
+any task that really matters.
+

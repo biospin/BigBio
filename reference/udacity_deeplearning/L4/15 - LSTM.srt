@@ -1,0 +1,80 @@
+1
+00:00:00,240 --> 00:00:01,819
+>> 이번에는 LSTM에 대해서 배우보겠습니다.
+>> This is where LSTMs come in.
+
+2
+00:00:02,910 --> 00:00:06,309
+LSTM은 long short-term memory의 약자입니다.
+LSTM stands for long short-term memory.
+
+3
+00:00:06,309 --> 00:00:10,220
+개념적으로 recurrent neural network은 
+단순하고 작은 반복적인 구조를 이루어졌으며,
+Now, conceptually, a recurrent neural
+network consists of a repetition of
+
+4
+00:00:10,220 --> 00:00:14,325
+과거의 입력된 값과 새로운 입력값들을 가지고 있으며,
+simple little units like this,
+which take as an input the past,
+
+5
+00:00:14,325 --> 00:00:20,560
+새로운 예측값을 생성하고 그것을 다음에 연결합니다.
+a new inputs, and produces a new
+prediction and connects to the future.
+
+6
+00:00:20,560 --> 00:00:24,140
+중앙에 있는 값은 전형적인 layer 구조를 갖습니다.
+Now, what's in the middle of that is
+typically a simple set of layers.
+
+7
+00:00:24,140 --> 00:00:27,550
+어떤 가중치와 어떤 선형성은 갖는 전형적인 neural network임.
+Some weights and some linearities.A
+typical neural network.
+
+8
+00:00:27,550 --> 00:00:28,750
+LSTMs을 가지고
+With LSTMs,
+
+9
+00:00:28,750 --> 00:00:32,870
+우리는 이상한 작은 머신을 갖는 
+조금한 모듈을 교체할 것입니다.
+we're going to replace this little
+module with a strange little machine.
+
+10
+00:00:32,870 --> 00:00:36,030
+이것은 복잡하게 보여지지만,
+기능적으로 neural net입니다.
+It will look complicated, but
+it's still functionally a neural net.
+
+11
+00:00:36,030 --> 00:00:39,200
+그리고 RNN에서 그것을 drop할 수 있고
+그것에 대한 걱정할 것이 없습니다.
+And you can drop it into your RNN and
+not worry about it.
+
+12
+00:00:39,200 --> 00:00:42,010
+이 아키텍처에 대해서 모든 것은 동일하고,
+Everything else about the architecture
+remains the same, and
+
+13
+00:00:42,010 --> 00:00:44,710
+이것은 훌륭하게 vanishing gradient 문제를
+줄여줍니다.
+it greatly reduces
+the vanishing gradient problem.
+

@@ -1,0 +1,101 @@
+1
+00:00:00,440 --> 00:00:02,890
+embeddings에 대해서 배우는 
+다른 방법을 보도록 합니다.
+Let's look at one way to
+learn those embeddings.
+
+2
+00:00:02,890 --> 00:00:04,750
+그것은 Word2Vec라고 합니다.
+It's called Word2Vec.
+
+3
+00:00:04,750 --> 00:00:09,150
+Word2Vec는 매우 잘 수행하는 
+놀라만하고 단순한 모델입니다.
+Word2Vec is a surprisingly simple
+model that works very well.
+
+4
+00:00:09,150 --> 00:00:12,230
+다음과 같은 문장에서의
+단어들을 가지고 있다고 하자.
+Imagine you had a corpus of
+text with a sentence say,
+
+5
+00:00:12,230 --> 00:00:15,320
+빠른 갈색 여우는 게으른 
+개를 뛰어넘는다.
+the quick brown fox
+jumps over the lazy dog.
+
+6
+00:00:15,320 --> 00:00:19,870
+이 문장에서의 각각의 단어는
+우리는 embedding으로 맵핑할 수 있을 것입니다.
+For each word in this sentence,
+we're going to map it to an embedding.
+
+7
+00:00:19,870 --> 00:00:21,415
+초기에는 램덤하게.
+Initially a random one.
+
+8
+00:00:21,415 --> 00:00:24,187
+그리고, 단어의 상황을 예측하고
+시도할 수 할 수 있도록 
+And then we're going to use
+that embedding to try and
+
+9
+00:00:24,187 --> 00:00:25,954
+embedding을 사용할 수 있습니다.
+predict the context of the word.
+
+10
+00:00:25,954 --> 00:00:30,090
+이 모델에서, 상황이란 것은 단순하게 
+근접한 단어들입니다.
+In this model, the context is
+simply the words that are nearby.
+
+11
+00:00:30,090 --> 00:00:33,590
+원래 단어 주위에 windows에서 
+랜덤하게 단어를 선택보세요.
+Pick a random word in a window
+around the original word
+
+12
+00:00:33,590 --> 00:00:35,930
+그리고 그것은 당신의 목표입니다.
+and that's your target.
+
+13
+00:00:35,930 --> 00:00:39,690
+지도 문제와 같이 정확히 
+모델을 학습보세요.
+Then train your model exactly as
+if it were a supervised problem.
+
+14
+00:00:39,690 --> 00:00:42,930
+근접한 단어을 예측하는 모델은
+The model you're going to use
+to predict this nearby word
+
+15
+00:00:42,930 --> 00:00:44,760
+단순히 로지스틱 회귀입니다.
+is a simple logistic regression.
+
+16
+00:00:44,760 --> 00:00:47,260
+deep과는 상관없는, 
+단순한 선형 모델입니다.
+Nothing deep about it,
+just a simple linear model.
+

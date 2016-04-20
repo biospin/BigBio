@@ -1,0 +1,221 @@
+1
+00:00:00,390 --> 00:00:05,163
+만약 일반적으로 RNNs에 대해서 생각한다면,
+매우 일반적이고 전혀적인 모델은
+If you think about RNNs in general,
+they are a very general, trainable model
+
+2
+00:00:05,163 --> 00:00:09,370
+가변 길이의 sequences을 고정 길이의 
+vectors로 맵핑하는 것입니다.
+that maps variable-length
+sequences to fixed-length vectors.
+
+3
+00:00:09,370 --> 00:00:12,490
+사실, sequence 생성과 논의했던 Bing 검색엔진 덕분에 
+In fact, thanks to the sequence
+generation and Bing search that we've
+
+4
+00:00:12,490 --> 00:00:16,940
+고정 길이의 vectors를 sequences로
+맵핑할 수 있도록 만들어질 수 있습니다.
+just discussed, they can also be made to
+map fixed-length vectors to sequences.
+
+5
+00:00:18,028 --> 00:00:23,110
+vector로부터 시작해서, RNN의 상태로 이것을 맵핑하고,
+예측 결과물을 생성합니다.
+Start from a vector, map it to the state
+of your RNN, then produce a prediction.
+
+6
+00:00:23,110 --> 00:00:25,500
+예측 결과물로부터 샘플을 하거나
+Bing search을 사용하고
+Then sample from it,
+or use Bing search, and
+
+7
+00:00:25,500 --> 00:00:27,940
+다음 단계를 얻기 위해서 RNN에 그 결과를 되먹입니다.
+feed them back into the RNN
+to get the next one.
+
+8
+00:00:29,180 --> 00:00:32,700
+2개의 빌딩 블럭을 가지고 있고 
+그것들을 함께 꿰맬 수 있습니다.
+Now you have those two building blocks,
+and you can stitch them together.
+
+9
+00:00:32,700 --> 00:00:35,550
+임의 길이의 sequences를 다른 임의 길이의 
+sequences로 맵핑하는 새로운 모델이 주어집니다.
+It gives you a new model that maps
+sequences of arbitrary lengths to other
+
+10
+00:00:35,550 --> 00:00:36,870
+sequences of arbitrary length.
+
+11
+00:00:36,870 --> 00:00:40,450
+그리고 이것은 완벽하게 학습이 가능합니다.
+And it's fully trainable.
+
+12
+00:00:41,590 --> 00:00:43,080
+당신은 무엇으로 할 수 있습니까?
+What can you do with?
+
+13
+00:00:43,080 --> 00:00:44,160
+많은 것들이 있습니다.
+Many things.
+
+14
+00:00:44,160 --> 00:00:46,845
+입력이 영어 단어의 sequence가 있고
+Imagine that your input is
+a sequence of English words and
+
+15
+00:00:46,845 --> 00:00:48,850
+프랑스 단어의 sequence가 결과가 되는것을 상상해보자.
+you output a sequence of French words.
+
+16
+00:00:48,850 --> 00:00:50,690
+당신은 기계 번역 시스템을 구축할 수 있습니다.
+You've just built a machine
+translation system.
+
+17
+00:00:51,840 --> 00:00:53,660
+필요로 한 모든것은 병렬 말뭉치입니다.
+All you need is some parallel text.
+
+18
+00:00:54,890 --> 00:00:58,010
+입력이 사운드이고 출력이 단어라고 상상해보자.
+Imagine that your input is sounds and
+your output words.
+
+19
+00:00:58,010 --> 00:01:00,300
+최종적으로 음성 인식 스시템을 구축할 수 있습니다.
+You've just built an end-to-end
+speech recognition system.
+
+20
+00:01:01,350 --> 00:01:06,160
+이 다자인에 다양성을 기반한 실시간 시스템은 존재하고
+매우 경쟁력이 있습니다.
+Real systems based on variations on this
+design exist and are very competitive.
+
+21
+00:01:06,160 --> 00:01:08,990
+실제적으로, 이것들은 매우 많은 데이터를 필요하고
+In practice,
+they do require a lot of data and
+
+22
+00:01:08,990 --> 00:01:10,204
+매우 잘 동작하기 위해서는 많은 연산이 필요합니다.
+a lot of compute to work very well.
+
+23
+00:01:11,455 --> 00:01:14,935
+우리는 기본적으로 이미지를 vector로 
+맵핑하는 conv nets에 대해서 논의했었습니다.
+We've also talked about conv nets,
+which basically map images
+
+24
+00:01:14,935 --> 00:01:18,335
+into vectors that represent
+the content of that image.
+
+25
+00:01:18,335 --> 00:01:23,655
+그래서, conv net을 가지고 있고, 이것과 RNN이 연결된다면
+무슨 일이 일어나는지 상상해보자.
+So picture what would happen if you took
+a conv net and connected it to an RNN.
+
+26
+00:01:23,655 --> 00:01:26,959
+이미지가 들어오고, 어떤 sequence가 나옵니다.
+You have an image going in, and
+a sequence of things coming out.
+
+27
+00:01:26,959 --> 00:01:28,675
+아마도 단어의 sequence.
+A sequence of words maybe.
+
+28
+00:01:28,675 --> 00:01:30,015
+그 이미지에 대한 caption이 가능합니다.
+Maybe the caption for that image.
+
+29
+00:01:31,230 --> 00:01:34,440
+이것을 하기 위해서는,
+이미지들와 captions을 훈련시키는 것이 필요합니다.
+To do that,
+you need training images and captions.
+
+30
+00:01:34,440 --> 00:01:37,190
+그것을 하기 위한 몇가지 데이터 셋을 만들수 있다.
+There are a few data sets out
+there that you can use for that.
+
+31
+00:01:37,190 --> 00:01:38,793
+대부분은 코코야자와 비슷한 모양의 데이터 셋
+Most notably the coco data set.
+
+32
+00:01:38,793 --> 00:01:42,740
+그것은 이미지들과 이미지에 대한 
+crowdsourced captions이다.
+It does images and
+crowdsourced captions for them.
+
+33
+00:01:42,740 --> 00:01:46,393
+이미지들을 분석하고 captions을 생성하기 위해서 
+cov net을 사용해서 모델을 학습할 수 있습니다.
+You can train a model that uses
+a cov net to analyze the image and
+
+34
+00:01:46,393 --> 00:01:48,229
+generate captions from them.
+
+35
+00:01:48,229 --> 00:01:49,390
+이것은 작동한다.
+And it works.
+
+36
+00:01:49,390 --> 00:01:53,250
+완벽하게 자동으로 생성하는 훌륭한 
+captions을 얻을 수 있습니다.
+You can get great captions,
+generated completely automatically, and
+
+37
+00:01:53,250 --> 00:01:55,470
+때로는 아주 재미있는 방법으로 실패합니다.
+it sometimes fails in very,
+very funny ways.
+

@@ -1,0 +1,164 @@
+1
+00:00:00,420 --> 00:00:04,260
+당신이 이미 CNN에서 어떻게
+파라메터를 공유하는지 알고 있습니다.
+You've already seen how convolutional
+network uses shared parameters across
+
+2
+00:00:04,260 --> 00:00:06,800
+하나의 이미지에서 patterns을 추출한 space에서..
+space to extract patterns over an image.
+
+3
+00:00:07,990 --> 00:00:11,800
+지금은 space대신에 time이지만
+같은 것을 수행할 것입니다.
+Now you're going to do the same thing
+but over time instead of space.
+
+4
+00:00:11,800 --> 00:00:15,590
+이것은 RNN 의 기반이 되는 
+아이디어입니다.
+This is the idea behind
+recurrent neural networks.
+
+5
+00:00:15,590 --> 00:00:19,460
+당신은 어떤 시점에서 사건의 sequence을
+가지고 있다고 상상해보세요.
+Imagine that you have a sequence
+of events, at each point in time
+
+6
+00:00:19,460 --> 00:00:22,840
+그 sequence에서 일어난 일에 대해서 
+무언가를 결정을 내려야 합니다.
+you want to make a decision about what's
+happened so far in this sequence.
+
+7
+00:00:22,840 --> 00:00:26,040
+어떤 시점에서의 사건 event을 가지고 있고
+Imagine that you have a sequence
+of events, at each point in time
+
+8
+00:00:26,040 --> 00:00:30,070
+그 sequence에서 무언가를 결정을 해야 합니다.
+you want to make a decision about
+what's happened so far in the sequence.
+
+9
+00:00:30,070 --> 00:00:32,540
+만약 당신의 가지고 있는 sequence가
+합리적으로 고정되어 있다면,
+If your sequence is
+reasonably stationary,
+
+10
+00:00:32,540 --> 00:00:35,280
+당신은 같은 시점에서 같은 분류를
+사용할 수 있습니다.
+you can use the same classifier
+at each point in time.
+
+11
+00:00:35,280 --> 00:00:37,060
+그것은 이미 많은 것을 단순화합니다.
+That simplifies things a lot already.
+
+12
+00:00:37,060 --> 00:00:41,330
+그것을 sequence이고, 지난 이력을 
+고려하기를 원하고 있습니다.
+But since this is a sequence, you also
+want to take into account the past.
+
+13
+00:00:41,330 --> 00:00:43,370
+어느 시점이전에는 무슨일이 있었습니다.
+Everything that happened
+before that point.
+
+14
+00:00:43,370 --> 00:00:47,310
+여기서 한 가지 자연스러운 것은 
+이전 분류기의 상태를 사용하는 것입니다.
+One natural thing to do here is to use
+the state of the previous classifier
+
+15
+00:00:47,310 --> 00:00:50,590
+재귀적으로 이전에 무슨 일이 
+발생한는지에 대한 요약과 같이..
+as a summary of what happened before,
+recursively.
+
+16
+00:00:50,590 --> 00:00:55,140
+지금은 지난 이력을 기억할 매우 깊은
+neural network가 필요합니다.
+Now, you would need a very deep neural
+network to remember far in the past.
+
+17
+00:00:55,140 --> 00:00:58,610
+그 sequence는 수백, 수천의 단계라고
+상상할 수 있습니다.
+Imagine that this sequence could
+have hundreds, thousands of steps.
+
+18
+00:00:58,610 --> 00:01:01,510
+이것은 수백, 수천의 layer을 갖는
+deep network을 의미합니다.
+It would basically mean to have
+a deep network with hundreds or
+
+19
+00:01:01,510 --> 00:01:03,070
+thousands of layers.
+
+20
+00:01:03,070 --> 00:01:05,690
+그러나, 그 대신에 
+우리는 다시 다른 시도를 할 것이고,
+But instead,
+we're going to use tying again and
+
+21
+00:01:05,690 --> 00:01:09,070
+지난 이력을 요약할 책임이 있는 
+단순한 모델을 가지도록 합니다.
+have a single model responsible for
+summarizing the past and
+
+22
+00:01:09,070 --> 00:01:11,650
+당신의 분류기에 대한 정보도 제공합니다.
+providing that information
+to your classifier.
+
+23
+00:01:11,650 --> 00:01:16,200
+끝에서 얻는 것은 비교적 단순하고 반복적인
+패턴을 가지고 있는 network입니다.
+What you end up with is a network with a
+relatively simple repeating pattern with
+
+24
+00:01:16,200 --> 00:01:20,360
+그 네트워크는 각각의 시점에서 입력값과 
+연결된 분류기의 부분들이며
+part of your classifier connecting to
+the input at each time step and another
+
+25
+00:01:20,360 --> 00:01:23,960
+recurrent connection라고 불러지는 
+다른 부분들과 각각의 step에서 연결되어집니다.
+part called the recurrent connection
+connecting you to the past at each step.
+

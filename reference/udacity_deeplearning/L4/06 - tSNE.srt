@@ -1,0 +1,97 @@
+1
+00:00:00,360 --> 00:00:01,710
+자신 스스로 보는것은 좋습니다.
+Now, it would be great to see for
+
+2
+00:00:01,710 --> 00:00:05,590
+embeddings은 당신이 생각했던 것과 같이
+clustering입니다.
+yourself that these embeddings
+are clustering together as you'd expect.
+
+3
+00:00:05,590 --> 00:00:08,360
+이것을 보는 하나의 방법은,
+주어진 단어와 가장 근접한 단어를
+One way to see it,
+is by doing a nearest neighbor lookup
+
+4
+00:00:08,360 --> 00:00:10,800
+찾도록 가장 이웃한 것을 조회하보세요.
+of the words that are closest
+to any given word.
+
+5
+00:00:12,030 --> 00:00:15,820
+또 다른 방법은 2차원으로 embedding 공간을 
+줄이도록 해보고,
+Another way is to try to reduce the
+dimensionality of the embedding space
+
+6
+00:00:15,820 --> 00:00:20,280
+2차원 표현을 연결하는 것입니다.
+down to two dimensions, and to plug
+the two dimensional representation.
+
+7
+00:00:20,280 --> 00:00:21,670
+만약, 당신이 PCA와 같은 
+원시적인 방법을 수행한다면,
+If you do that the native way, for
+
+8
+00:00:21,670 --> 00:00:25,000
+당신은 별 의미없는 것을 갖게 됩니다.
+example using PCA,
+you basically get a mush.
+
+9
+00:00:25,000 --> 00:00:27,780
+당신의 처리 과정에서 너무 많은 
+정보를 잃게 됩니다.
+You lose too much
+information in the process.
+
+10
+00:00:27,780 --> 00:00:31,390
+데이터의 이웃한 구조를 보존할 수 있는
+투영 방법이 필요합니다.
+What you need is a way of projecting
+that preserves the neighborhood
+
+11
+00:00:31,390 --> 00:00:33,260
+structure of your data.
+
+12
+00:00:33,260 --> 00:00:36,850
+embedding space에서 유사한 단어는 인접하고
+Things that are close in the embedding
+space should remain close to the ends,
+
+13
+00:00:36,850 --> 00:00:40,020
+서로 멀리 있는것을 떨어져야 합니다.
+things that are far should
+be far away from each other.
+
+14
+00:00:40,020 --> 00:00:43,310
+t-SNE은 정확하게 수행하는 아주
+효과적인 기술입니다.
+One very effective technique that
+does exactly that is called t-SNE.
+
+15
+00:00:43,310 --> 00:00:46,250
+시각화 기술로 실행할 수 있습니다.
+You'll get to play with this
+visualization technique in
+
+16
+00:00:46,250 --> 00:00:46,820
+the assignment
+

@@ -1,0 +1,191 @@
+1
+00:00:00,500 --> 00:00:02,647
+일반적으로 embeddings을 배울 수 있는 
+Word2Vec에 대한 2개의 상세한 기술과 방법이 있습니다.
+Two more technical details
+about Word 2 Vec and
+
+
+2
+00:00:02,647 --> 00:00:05,270
+about methods to learn
+embeddings in general.
+
+3
+00:00:05,270 --> 00:00:09,320
+첫번째로, embeddings을 학습하는 방법 때문에
+First, because of the way embeddings are
+trained, it's often better to measure
+
+4
+00:00:09,320 --> 00:00:13,430
+인접함을 계산하기 위해서 L2 대신에 
+cosine distance을 자주 사용합니다.
+the closeness using a cosine
+distance instead of L2, for example.
+
+5
+00:00:13,430 --> 00:00:16,079
+cosine  distance을 사용하는 이유는
+That's because the length
+of the embedding vector
+
+6
+00:00:16,079 --> 00:00:18,340
+embedding vector의 길이는 분류와는
+상관이 없기 때문입니다.
+is not relevant to the classification.
+
+7
+00:00:18,340 --> 00:00:21,910
+실제로, 모든 embedding vectors을
+정규하는데 자주 사용됩니다.
+In fact, it's often better to
+normalize all embedding vectors
+
+8
+00:00:21,910 --> 00:00:23,930
+단일한 형태로 단순화 하기 위해서..
+to simply have unit norm.
+
+9
+00:00:23,930 --> 00:00:27,080
+두번째는, 많은 단어들을 예측하는
+문제를 가지고 있습니다.
+Second, we have the issue of
+trying to predict words, and
+
+10
+00:00:27,080 --> 00:00:28,330
+there are lots of them.
+
+11
+00:00:28,330 --> 00:00:32,450
+우리가 구성한 Word2Vec에서는
+작은 vector로 embed할 단어를 가지고 있으며,
+So in Word 2 Vec we have this set up,
+we have a word that we're going to embed
+
+12
+00:00:32,450 --> 00:00:37,070
+weight와 biases을 갖는 단순한 
+선형 모델로 적합할 수 있고, 
+into a small vector, then feed that into
+a simple linear model with weights and
+
+13
+00:00:37,070 --> 00:00:41,360
+softmax probability로 결과가 출력됩니다.
+biases and
+that outputs a softmax probability.
+
+14
+00:00:41,360 --> 00:00:45,560
+이것은 입력된 단어의 상황에서 다른 단어의 
+상화을 비교하는 것입니다.
+This is then compared to the target
+which is another word in the context
+
+15
+00:00:45,560 --> 00:00:47,560
+of the input word.
+
+16
+00:00:47,560 --> 00:00:49,550
+이 과정의 문제는 사전안에는 
+많은 단어가 있다는 것입니다.
+The problem of course is
+that there might be many,
+
+17
+00:00:49,550 --> 00:00:51,790
+many words in our vocabulary.
+
+18
+00:00:51,790 --> 00:00:56,740
+그리고, 모든 단어의 softmax함수를
+계산하는 것은 매우 비효율적일 수 있습니다.
+And computing the softmax function of
+all those words can be very inefficient.
+
+19
+00:00:56,740 --> 00:00:58,190
+그러나, 당신은 트릭을 사용할 수 있습니다.
+But you can use a trick.
+
+20
+00:00:58,190 --> 00:01:02,120
+softmax을 다루는 대신에 
+Instead of treating the softmax as
+if the label had probability of 1,
+
+21
+00:01:02,120 --> 00:01:04,730
+and every other word
+had probability of 0,
+
+22
+00:01:04,730 --> 00:01:07,960
+당신은 대상이 아닌 단어를 
+샘플을 뽑을 수 있습니다.
+you can sample the words
+that are not the targets,
+
+23
+00:01:07,960 --> 00:01:12,880
+다른 단어가 없는것 같이 
+단어중 조금만 뽑습니다.
+pick only a handful of them and act
+as if the other words were not there.
+
+24
+00:01:12,880 --> 00:01:15,430
+각각의 예제에 대해서 negative 
+targets을 샘플링하는 아이디어는
+This idea of sampling
+the negative targets for
+
+25
+00:01:15,430 --> 00:01:18,770
+자주 sampled softmax라고 언급됩니다.
+each example is often
+called sampled softmax.
+
+26
+00:01:18,770 --> 00:01:21,940
+그리고, 성능에 부담이 없이
+빠르게 수행됩니다.
+And it makes things faster
+at no cost in performance.
+
+27
+00:01:21,940 --> 00:01:23,200
+이것이 모든 작업입니다.
+That's all there is to it.
+
+28
+00:01:23,200 --> 00:01:27,570
+당신은 텍스트의 거대한 말뭉치를 가지고 오고,
+각각의 단어를 찾고, 단어를 embed합니다.
+You take your large corpus of texts,
+look at each word, embed it, and
+
+29
+00:01:27,570 --> 00:01:29,150
+그리고 이웃한 단어를 예측합니다.
+predict its neighbors.
+
+30
+00:01:29,150 --> 00:01:32,300
+당신이 수행한 것들은 단어로부터 
+vector로 맵핑한 것이고,
+What you get out of that is
+a mapping from words to vectors
+
+31
+00:01:32,300 --> 00:01:34,730
+유사한 단어는 서로 근접하도록
+가지고 위치시키는 것입니다.
+where similar words are going to
+be close to each other.
+

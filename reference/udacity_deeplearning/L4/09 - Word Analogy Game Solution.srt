@@ -1,0 +1,28 @@
+1
+00:00:00,240 --> 00:00:04,770
+자 보십시오. putty 가지고 와서
+여기에서 dog을 제거하고
+Let's see, you take a puppy,
+you remove what makes it a dog, and
+
+2
+00:00:04,770 --> 00:00:07,740
+여기에 cat을 더하면,
+kitten이 됩니다.
+add what makes it a cat,
+and you get a kitten.
+
+3
+00:00:08,910 --> 00:00:12,990
+taller을 가지고 와서
+키가 큰 것에 관한 내용을 삭제하고
+Or you take taller,
+remove what pertains to being tall and
+
+4
+00:00:12,990 --> 00:00:16,480
+짧은 것에 관한 내용을 추가하면,
+더 짧은것을 얻습니다.
+add what pertains to being short,
+and you get shorter.
+

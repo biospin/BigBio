@@ -1,0 +1,88 @@
+1
+00:00:00,780 --> 00:00:04,030
+당신은 이와 같은 결과를 얻을 수 있도록 많은 
+데이터를 학습한 매우 좋은 모델이 필요합니다. 
+You obviously need a very good
+model train on a lot of data
+
+2
+00:00:04,030 --> 00:00:05,470
+to get this kind of result.
+
+3
+00:00:05,470 --> 00:00:08,500
+당신이 학습하고 있는 모델은
+And it's likely that the model that
+you're training in the assignments
+
+4
+00:00:08,500 --> 00:00:11,290
+이것을 보여줄 만큼 충분한 데이터를
+가지고 학습하지 않았습니다.
+is just not trained with
+enough data to show this.
+
+5
+00:00:11,290 --> 00:00:12,960
+그러나, 당신은 시도할 수 있습니다.
+But you can try.
+
+6
+00:00:12,960 --> 00:00:15,540
+제가 언급하지 않은 embeddings을
+학습하는 다른 방법이 있습니다.
+There are many other ways to learn
+embeddings that I won't cover.
+
+7
+00:00:16,550 --> 00:00:19,400
+지금, 우리는 개별 단어에 대한
+모델을 가지고 있습니다.
+Now, that we have models for
+individual words,
+
+8
+00:00:19,400 --> 00:00:23,360
+우리는 텍스트가 실제로 단어의 연속이라는
+사실을 어떻게 다루어야 할까요?
+how do we deal with the fact that
+text is actually a sequence of words?
+
+9
+00:00:23,360 --> 00:00:27,220
+지금까지, 모델은 고정된 크기를 입력으로
+보고 있습니다.
+So far, your models have only looked
+at inputs that were a fixed size.
+
+10
+00:00:27,220 --> 00:00:30,890
+고정된 사이즈란 단어들을 vector로
+설정할 수 있다는 의미이고,
+Fixed size means you can always
+turn things into a vector, and
+
+11
+00:00:30,890 --> 00:00:32,930
+neural network로 그것을 
+적용할 수 있습니다. 
+feed it to your neural network.
+
+12
+00:00:32,930 --> 00:00:35,160
+당신이 speech나 text와 같이 가변 크기의 
+sequences을 가지고 있을때
+When you have sequences
+of varying length,
+
+13
+00:00:35,160 --> 00:00:38,770
+당신은 그것을 더 이상할 수 없습니다.
+like speech or text,
+you can no longer do that.
+
+14
+00:00:38,770 --> 00:00:39,270
+그래서 ??
+Now what?
+

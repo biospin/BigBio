@@ -1,0 +1,134 @@
+1
+00:00:00,300 --> 00:00:05,140
+만약, 고양이 그르릉한다고 말하거나
+그 고양이가 쥐를 잡는다고 한다면,
+>> If I say the cat purrs or
+this cat hunts mice, it's
+
+2
+00:00:05,140 --> 00:00:09,850
+그것은 새끼고양이 그르릉한다고 말하거나
+새끼고야이가 쥐를 잡는다와 완벽히 동일합니다.
+perfectly reasonable to also say the
+kitty purrs or this kitty hunts mice.
+
+3
+00:00:11,030 --> 00:00:15,130
+이 상황은 그 단어들이 유사하다는 생각을 
+할 수 있도록 합니다.
+The context gives you a strong
+idea that those words are similar.
+
+4
+00:00:15,130 --> 00:00:18,850
+그르릉하고 쥐를 잡기 위해서는 
+고양이 같아야 합니다.
+You have to be catlike to purr and
+hunt mice.
+
+5
+00:00:18,850 --> 00:00:21,690
+그래서, 단어의 상황을 예측하기 위해서는 
+배워보도록 합니다.
+So, let's learn to
+predict a word's context.
+
+6
+00:00:21,690 --> 00:00:25,680
+단어의 상황을 잘 예측하는 모델은
+The hope is that a model that's good at
+predicting a word's context will have to
+
+7
+00:00:25,680 --> 00:00:30,830
+고양이와 고양이 새끼를 유사하게 다루고,
+그것들을 함께 가져가는 경항이 있습니다.
+treat cat and kitty similarly, and
+will tend to bring them closer together.
+
+8
+00:00:30,830 --> 00:00:34,190
+이 방법의 장점은 그 단어가 실제로 
+무슨 의미를 갖는지에 대해서 고려할 필요가 업습니다.
+The beauty of this approach is that you
+don't have to worry about what the words
+
+9
+00:00:34,190 --> 00:00:39,360
+그 단어들에 속한 무리들에 
+직접적으로 주어준 의미.. ??? 
+actually mean, giving further meaning
+directly by the company they keep.
+
+10
+00:00:39,360 --> 00:00:44,350
+유사한 단어가 유사한 상황에서 발생한다는
+아이디어를 사용하는 많은 방법이있다.
+There are many way to use this idea that
+similar words occur in similar contexts.
+
+11
+00:00:44,350 --> 00:00:48,050
+우리의 경우에는, 작은 vector로 단어를
+맵핑하는데 사용할 것입니다.
+In our case, we're going to use
+it to map words to small vectors
+
+12
+00:00:48,050 --> 00:00:51,350
+서로에게 근접하도록 하는 embeddings
+이라고 불러지는
+called embeddings which are going
+to be close to each other
+
+13
+00:00:51,350 --> 00:00:54,700
+단어가 유사한 의미를 갖을때는,
+그리고 유사하지 않을때는 멀리 떨어뜨림.
+when words have similar meanings,
+and far apart when they don't.
+
+14
+00:00:55,820 --> 00:00:58,570
+Embedding은 희소성 문제를 해결합니다.
+Embedding solves of
+the sparsity problem.
+
+15
+00:00:58,570 --> 00:01:02,680
+한편 단어를 작은 vector로 embedded하고
+Once you have embedded your word into
+this small vector, now you have a word
+
+16
+00:01:02,680 --> 00:01:07,510
+고양이와 비슷한 단어들 cat, kitties
+pets, lione을 표현할 수 있습니다.
+representation where all the catlike
+things like cats, kitties, kittens,
+
+17
+00:01:07,510 --> 00:01:12,280
+매우 유사한 vector로..
+pets, lions, are all represented
+by vectors that are very similar.
+
+18
+00:01:12,280 --> 00:01:15,020
+이 모델은 새로운 것을 학습할 
+필요가 없습니다.
+Your model no longer has
+to learn new things for
+
+19
+00:01:15,020 --> 00:01:17,650
+고양이에 대한 언급할 수 있는 모든 방법을..
+every way there is to talk about a cat.
+
+20
+00:01:17,650 --> 00:01:21,260
+이것은 고양이와 같은 것들을 특정 패턴을
+일반화할 수 있습니다.
+It can generalize from this
+particular pattern of catlike things.
+

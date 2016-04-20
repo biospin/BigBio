@@ -1,0 +1,64 @@
+1
+00:00:00,120 --> 00:00:05,350
+kitten과 cat와의 관계는 puppy와 dog가 
+의미론적 유사한 관계를 갖는다는 것을 말하고 있습니다.
+Saying that a kitten is to cat what a
+puppy is to a dog is a semantic analogy.
+
+2
+00:00:05,350 --> 00:00:09,420
+shorter와 short와의 관계는 
+taller와 tall과의 통사론적 유사한 관계를
+갖는다는 말하고 있습니다.
+Just like saying that shorter is
+to short what taller is to tall
+
+3
+00:00:09,420 --> 00:00:11,090
+is a syntactic analogy.
+
+4
+00:00:11,090 --> 00:00:14,530
+embedding factors의 재미있는 
+요소가 잘 나타납니다.
+Here's a fun emergent properties
+of those embedding factors.
+
+5
+00:00:14,530 --> 00:00:19,130
+그것은 수학 연산의 관점과 비슷하게 
+유사성을 표현할 수 있게 합니다.
+They let you express analogies like this
+in terms of mathematical operations.
+
+6
+00:00:19,130 --> 00:00:20,630
+만약, 당신이 좋은 모델이 있다면,
+If you have a good model, and
+
+7
+00:00:20,630 --> 00:00:23,380
+puppy에 대한 vector를 가지고 있고
+dog을 빼고
+you take the vector for puppy,
+subtract the vector for
+
+8
+00:00:23,380 --> 00:00:28,480
+cat에 대한 vector를 더하면,
+다른 vector를 얻게 됩니다.
+dog and then add back the vector for
+cat, then you get another vector.
+
+9
+00:00:28,480 --> 00:00:32,490
+만약 imbedding space안에 가장 근접한
+어떤 vector를 보면,
+If you look for what that vector
+is closest to in imbedding space,
+
+10
+00:00:32,490 --> 00:00:34,270
+그것은 kitten이 될 것입니다.
+chances are that it will be kitten.
+

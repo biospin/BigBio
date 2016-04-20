@@ -1,0 +1,101 @@
+1
+00:00:00,630 --> 00:00:03,969
+deep model에서 텍스트를 어떻게 
+다루는지에 대해서 논의해보겠습니다.
+Let's talk about how to
+handle text in a deep model.
+
+2
+00:00:03,969 --> 00:00:06,190
+당신이 문서를 분류하기를
+원하다고 상상해보세요.
+Imagine that you want
+to classify a document.
+
+3
+00:00:06,190 --> 00:00:09,920
+문서가 정치, 사업에 대한 것인가요?
+아니면, 과학에 대해서인가요?
+Is it talking about politics,
+or business, or science maybe?
+
+4
+00:00:10,930 --> 00:00:13,580
+당신은 그 문서에 포함된 
+단어들을 보고 있을 것입니다.
+You're going to have to look
+at the words in that document
+
+5
+00:00:13,580 --> 00:00:14,240
+어떤 종류의 문서인지 알아내기 위해서...
+to figure that out.
+
+6
+00:00:15,260 --> 00:00:17,100
+포함된 단어들이 정말로 어렵습니다.
+Words are really difficult.
+
+7
+00:00:17,100 --> 00:00:20,550
+단어들중에서 대부분이 
+당신이 보지 못한 것들입니다.
+There are lots of them and
+most of them you never, ever see.
+
+8
+00:00:21,610 --> 00:00:26,610
+당신이 거의 보지 못한 단어들이 실제로
+가장 중요한 것이 되는 경향이 있습니다.
+In fact the ones that you rarely see,
+tend to be the most important ones.
+
+9
+00:00:26,610 --> 00:00:31,430
+만약 문서에 duh(감탄사)가 포함되어 있다면,
+당신은 어떤 종류의 문서인지 전혀 알 수가 없을 것입니다.  
+If you know that your document contains
+duh, you don't know much at all.
+
+10
+00:00:31,430 --> 00:00:34,960
+그러나 retinopathy(망막병증)이란 
+단어가 있다면, 
+But if you know that it
+contains retinopathy,
+
+11
+00:00:34,960 --> 00:00:37,225
+아마도 의학 문서라고 
+알 수 있습니다.
+you know that it's probably
+a medical document.
+
+12
+00:00:37,225 --> 00:00:45,121
+Retinopathy은 영어에서 0.0001%의 빈도로
+나타납니다.
+Retinopathy appears with
+a frequency of 0.0001% in English.
+
+13
+00:00:45,121 --> 00:00:49,360
+이 단어는 이전에 당신이 결코 
+보지 못한 단어일 수 있습니다.
+It's even possible that you've never
+seen that word yourself before.
+
+14
+00:00:49,360 --> 00:00:53,290
+deep learning에서는,
+그런 드문 사건은 문제가 되지 않습니다.
+For deep learning,
+rare events like that are a problem.
+
+15
+00:00:53,290 --> 00:00:55,760
+우리는 학습시킬 예제를 많이 
+가지고 있습니다.
+We like to have lots of training
+examples to learn from.
+

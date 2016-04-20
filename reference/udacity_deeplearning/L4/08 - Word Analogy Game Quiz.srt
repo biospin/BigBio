@@ -1,0 +1,47 @@
+1
+00:00:00,380 --> 00:00:03,750
+이 퀴즈를 모두 마치면, 당신은
+vector보다 조금 더 많은 것을
+이해했을 것입니다.
+You actually get a little more than
+vector that just tell you when
+
+2
+00:00:03,750 --> 00:00:04,750
+things are alike.
+
+3
+00:00:04,750 --> 00:00:05,470
+그리고 퀴즈는 재미있습니다.
+And it's really fun.
+
+4
+00:00:06,480 --> 00:00:07,890
+당신은 vectors을 가지고 있습니다.
+You have vectors.
+
+5
+00:00:07,890 --> 00:00:11,050
+당신은 단어를 가지고 산수를
+한다고 상상해보세요.
+Imagine that you could
+do math with words now.
+
+6
+00:00:11,050 --> 00:00:12,740
+문제를 풀어보세요.
+Let's try an experiment.
+
+7
+00:00:12,740 --> 00:00:19,740
+puppy 빼기 dog 더하기 cat의 결과는 
+무엇일까 직관적으로 상상해보세요?
+What do you think the results of puppy-
+dog + cat should be intuitively?
+
+8
+00:00:20,950 --> 00:00:25,229
+taller 빼기 tall 더하기 short는
+어떨까요?
+How about taller- tall + short?
+

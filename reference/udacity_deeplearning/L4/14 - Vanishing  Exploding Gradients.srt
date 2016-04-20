@@ -1,0 +1,83 @@
+1
+00:00:00,440 --> 00:00:03,220
+이 문제를 자주 exploding gradient나
+These problems are often
+called the exploding and
+
+2
+00:00:03,220 --> 00:00:04,330
+vanishing gradient라고 합니다.
+vanishing gradient problems.
+
+3
+00:00:04,330 --> 00:00:09,720
+놀랍게도 매우 다른 방법들로 
+이 문제를 해결합니다.
+And we're going to fix them,
+surprisingly in very different ways.
+
+4
+00:00:09,720 --> 00:00:13,940
+하나는 매우 단순한 hack을 사용하고
+다른 하나는 매우 우아한 방법을 사용합니다.
+One using a very simple hack, and
+the other one with a very elegant but
+
+5
+00:00:13,940 --> 00:00:16,300
+그러나, 약간 모델이 복잡해집니다.
+slightly complicated
+change to the model.
+
+6
+00:00:16,300 --> 00:00:18,990
+단순한 hack은 gradient clipping 라고 합니다.
+The simple hack is called
+gradient clipping.
+
+7
+00:00:18,990 --> 00:00:21,830
+gradients가 끝없이 커지는 것을 
+방지하기 위해서
+In order to prevent the gradients
+from growing inbounded,
+
+8
+00:00:21,830 --> 00:00:26,600
+gradients의 norm을 계산하고
+그 rorm이 너무 커지면, 각 단계에서 수축시킵니다.
+you can compute their norm and shrink
+their step, when the norm grows too big.
+
+9
+00:00:26,600 --> 00:00:29,310
+이것을 편법스럽지만 
+It's hacky, but 간단하고 효율적입니다.
+it's cheap and effective.
+
+10
+00:00:29,310 --> 00:00:32,549
+gradient vanishing은 매우 
+다른 방법으로 해결합니다.
+The more difficult thing to
+fix is gradient vanishing.
+
+11
+00:00:32,549 --> 00:00:36,200
+Vanishing gradients가 단지 최근의 사건만
+기억하도록 모델을 만들어주고
+Vanishing gradients make your model
+only remember recent events and
+
+12
+00:00:36,200 --> 00:00:38,250
+많이 떨어진 과거는 기억하지 않습니다.
+forget the more distant past,
+
+13
+00:00:38,250 --> 00:00:42,580
+recurrent neural nets은 몇 시점을 지난
+과거는 잘 작동하지 않는다는 경향을 의미합니다.
+which means recurrent neural nets tend
+to not work well past a few time steps.
+
