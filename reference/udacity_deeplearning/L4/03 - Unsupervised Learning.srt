@@ -1,7 +1,7 @@
 1
 00:00:00,770 --> 00:00:05,180
 이 문제들을 풀기 위해서,
-우리는 비지도학습로 방향을 전환할 것입니다.
+우리는 비지도학습으로 방향을 전환할 것입니다.
 So to solve that problem we're going
 to turn to unsupervised learning.
 

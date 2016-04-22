@@ -47,7 +47,7 @@ With LSTMs,
 9
 00:00:28,750 --> 00:00:32,870
 우리는 이상한 작은 머신을 갖는 
-조금한 모듈을 교체할 것입니다.
+조금한 모듈로 교체할 것입니다.
 we're going to replace this little
 module with a strange little machine.
 

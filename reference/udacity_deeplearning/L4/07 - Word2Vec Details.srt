@@ -82,7 +82,7 @@ that outputs a softmax probability.
 14
 00:00:41,360 --> 00:00:45,560
 이것은 입력된 단어의 상황에서 다른 단어의 
-상화을 비교하는 것입니다.
+상황을 비교하는 것입니다. 
 This is then compared to the target
 which is another word in the context
 
@@ -115,12 +115,14 @@ But you can use a trick.
 
 20
 00:00:58,190 --> 00:01:02,120
-softmax을 다루는 대신에 
+softmax을 다루는 대신에
+라벨이 1의 확률을 갖는다면,
 Instead of treating the softmax as
 if the label had probability of 1,
 
 21
 00:01:02,120 --> 00:01:04,730
+모든 다른 단어는 0의 확률을 갖게됩니다.
 and every other word
 had probability of 0,
 

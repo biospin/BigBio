@@ -44,7 +44,7 @@ If you do that the native way, for
 
 8
 00:00:21,670 --> 00:00:25,000
-당신은 별 의미없는 것을 갖게 됩니다.
+별 의미없는 결과가 나옵니다.
 example using PCA,
 you basically get a mush.
 

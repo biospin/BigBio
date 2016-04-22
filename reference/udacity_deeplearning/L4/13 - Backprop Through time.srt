@@ -14,8 +14,7 @@ the derivative through time,
 
 3
 00:00:05,670 --> 00:00:07,700
-sequence의 시작부분에서의
-모든 방벙은
+sequence의 시작부분에서의 모든 방법은
 all the way to the beginning
 of the sequence.
 
@@ -42,7 +41,7 @@ all at once, for the same weights.
 
 7
 00:00:19,950 --> 00:00:22,315
-확률적 기울기 하강에 대해서는
+Stochastic gradient descent에서는
 나쁜 결과가 나옵니다.
 This is bad for
 stochastic gradient descent.
@@ -79,6 +78,6 @@ Or they go down to zero very quickly.
 
 13
 00:00:37,550 --> 00:00:38,970
-어느쪽도 training을 마치지 못합니다.
+어느쪽도 training을 끝나지 못합니다.
 And you end up not training anything.
 

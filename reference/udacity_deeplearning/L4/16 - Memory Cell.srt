@@ -15,7 +15,7 @@ memorize things better.
 3
 00:00:06,689 --> 00:00:09,780
 그래서, 잠시만 neural networks에
-대한 것을 잃기로 하자.
+대한 것을 잊기로 하자.
 So let's forget about neural
 networks for just a moment.
 
@@ -45,7 +45,7 @@ and
 
 8
 00:00:21,430 --> 00:00:24,080
-데이터를 지우거나 잃는 것도 원할 것이다.
+데이터를 지우는 것도 원할 것이다.
 then you also want to be
 able to erase it, or forget.
 
@@ -89,7 +89,7 @@ to read from that memory or not.
 
 15
 00:00:49,424 --> 00:00:55,890
-그리고 마지막 gate는 데이터를 잃을지 
+그리고 마지막 gate는 데이터를 잊을지 
 또는 다시 쓸지를 알려줍니다.
 And then you have one final gate that
 says forget the data or write it back.

@@ -70,19 +70,18 @@ feed it to your neural network.
 
 12
 00:00:32,930 --> 00:00:35,160
-당신이 speech나 text와 같이 가변 크기의 
+당신이 speech나 text와 같이 가변 길이의 
 sequences을 가지고 있을때
 When you have sequences
 of varying length,
 
 13
 00:00:35,160 --> 00:00:38,770
-당신은 그것을 더 이상할 수 없습니다.
+가변 길이의 데이터를 다룰 수 없습니다.
 like speech or text,
 you can no longer do that.
 
 14
 00:00:38,770 --> 00:00:39,270
-그래서 ??
+이제 무엇을 할까요??
 Now what?
-

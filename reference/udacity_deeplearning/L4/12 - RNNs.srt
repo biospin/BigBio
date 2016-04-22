@@ -7,7 +7,8 @@ network uses shared parameters across
 
 2
 00:00:04,260 --> 00:00:06,800
-하나의 이미지에서 patterns을 추출한 space에서..
+하나의 이미지에서 patterns을
+추출하는것은 space에서 이루어집니다.
 space to extract patterns over an image.
 
 3
@@ -71,14 +72,14 @@ That simplifies things a lot already.
 
 12
 00:00:37,060 --> 00:00:41,330
-그것을 sequence이고, 지난 이력을 
-고려하기를 원하고 있습니다.
+그것은 sequence이기 때문에, 
+과거를 고려하기를 원하고 있습니다.
 But since this is a sequence, you also
 want to take into account the past.
 
 13
 00:00:41,330 --> 00:00:43,370
-어느 시점이전에는 무슨일이 있었습니다.
+어느 시점 이전에 일어난 모든것에 대해서..
 Everything that happened
 before that point.
 
@@ -98,7 +99,7 @@ recursively.
 
 16
 00:00:50,590 --> 00:00:55,140
-지금은 지난 이력을 기억할 매우 깊은
+과거를 기억할 매우 깊은
 neural network가 필요합니다.
 Now, you would need a very deep neural
 network to remember far in the past.
@@ -130,7 +131,7 @@ we're going to use tying again and
 
 21
 00:01:05,690 --> 00:01:09,070
-지난 이력을 요약할 책임이 있는 
+과거를 요약할 책임이 있는 
 단순한 모델을 가지도록 합니다.
 have a single model responsible for
 summarizing the past and

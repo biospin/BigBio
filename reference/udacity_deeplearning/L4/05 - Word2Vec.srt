@@ -13,14 +13,14 @@ It's called Word2Vec.
 3
 00:00:04,750 --> 00:00:09,150
 Word2Vec는 매우 잘 수행하는 
-놀라만하고 단순한 모델입니다.
+놀랄만하고 단순한 모델입니다.
 Word2Vec is a surprisingly simple
 model that works very well.
 
 4
 00:00:09,150 --> 00:00:12,230
-다음과 같은 문장에서의
-단어들을 가지고 있다고 하자.
+다음에서 보여지는 것 같이 문장에서
+단어들을 가지고 있다고 합시다.
 Imagine you had a corpus of
 text with a sentence say,
 
@@ -76,8 +76,8 @@ and that's your target.
 
 13
 00:00:35,930 --> 00:00:39,690
-지도 문제와 같이 정확히 
-모델을 학습보세요.
+지도학습 문제와 같이 정확히 
+모델을 학습해 보세요.
 Then train your model exactly as
 if it were a supervised problem.
 
