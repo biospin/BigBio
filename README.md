@@ -91,7 +91,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(딥러닝 실습) [TensorFlow Serving(손준영)](https://github.com/biospin/BigBio/blob/master/part02/week02_160412/Tensorflow%20Serving.pdf)
 |    |          |(딥러닝 실습) [TensorFlow Serving(손준영)](https://github.com/biospin/BigBio/blob/master/part02/week02_160412/Tensorflow%20Serving.pdf)
 |    |          |(빅데이터 기초) [직접 해보는 하둡 프로그래밍 : 7장(박혜진)](https://github.com/biospin/BigBio/blob/master/part02/week02_160412/DoItHadoop_ch7.pptx)
-|  3 |2016. 4.19|(통계기초)Introductory Statistics with R (Chap. 13~14)(서승연)
+|  3 |2016. 4.19|(통계기초)[Introductory Statistics with R (Chap. 13~14)(서승연)](https://github.com/biospin/BigBio/blob/master/part02/week03_160419/IntroductoryStatisticswithR_13%2C14_SYSeo.pdf)
 |    |          |(딥러닝 실습) Vector Representations of Words(한성국)
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 8장(우륭)
 |  4 |2016. 4.26|(통계기초) Introductory Statistics with R (Chap. 15~16)(유재용)
