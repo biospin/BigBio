@@ -97,18 +97,18 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |  4 |2016. 4.26|(통계기초) Introductory Statistics with R (Chap. 15~16)(유재용)
 |    |          |(딥러닝 실습) [Recurrent Neural Networks 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%9D%B4%EB%A1%A0.ipynb)
 |    |          |(딥러닝 실습) [Recurrent Neural Networks 실습(지용기)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%8B%A4%EC%8A%B5.ipynb)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 1 ~ 2장
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 1 ~ 2장(박세진)
 
 
 ### Part 3.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016.5.3  |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장
+|  1 |2016.5.3  |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )(지용기)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장(이승우)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장(박헤진)
 |  2 |2016.5.10 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장(손진영)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장
 |  3 |2016.5.17 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( MLP)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 7장
