@@ -96,7 +96,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 기초) 직접 해보는 하둡 프로그래밍 : 8장(우륭)
 |  4 |2016. 4.26|(통계기초) Introductory Statistics with R (Chap. 15~16)(유재용)
 |    |          |(딥러닝 실습) [Recurrent Neural Networks 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%9D%B4%EB%A1%A0.ipynb)
-|    |          |(딥러닝 실습) [Recurrent Neural Networks 실습(지용기)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%8B%A4%EC%8A%B5.ipynb)
+|    |          |(딥러닝 실습) [RNN 실습](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%8B%A4%EC%8A%B5.ipynb), [Udacity Word2Vect](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/5_word2vec.ipynb), [Udacity LSTM](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/6_lstm.ipynb)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 1 ~ 2장(박세진)
 
 
