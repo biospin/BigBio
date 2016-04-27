@@ -167,14 +167,32 @@ pscp -h ~/all_hosts.txt /etc/security/limits.conf  /etc/security/limits.conf
 pssh -h ~/all_hosts.txt  reboot
 ```
 
+## Cloudera Manager 설치
+- 관리서버에서만 root 계정으로
 
+```
+wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
+chmod u+x cloudera-manager-installer.bin
+./cloudera-manager-installer.bin
+```
 
+- 설치완료가 되면,  http://관리서버IP:7180 으로 브라우저로 접속하라고 함.
+- 초기 admin ID의 패스워드는 admin 임.
+![](cloudera_install_01.jpg)
 
+- 로그인후에 "최종 사용자 라이선스 사용 약관" 동의에 예를 선택하고 계속 버튼 클릭
+![](cloudera_install_02.jpg)
 
+- "어떤 버전을 배포하시겠습니까?"에서는 Cloudera Express를 선택하고 계속 버튼 클릭
+- Cloudera Enterprise 버전 라이선스를 구입하면, 기술지원 서비스를 받을 수 있음. 여러분이 고생할 필요가 없음. => 사 달라고 사장님에게 조르자~~
+![](cloudera_install_03.jpg)
 
+- Cloudera Express 에서 지원하는 오픈소스 목록만 나옴. 계속 버튼 클릭
+![](cloudera_install_04.jpg)
 
-
-
+- 클러스터로 구성할 호스트명들을 모든 적어놓고, 검색버튼을 클릭함.
+- 호스트명으로 SSH로 접속할 수 있는지 검사를 하고 결과를 보여줌.
+![](cloudera_install_05.jpg)
 
 
 
