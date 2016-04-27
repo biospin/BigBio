@@ -1,0 +1,165 @@
+# 클라우데라 배포판을 이용한 하둡 및 빅데이터 오픈소스 설치하기
+
+- 참고 : http://www.cloudera.com/downloads/manager/5-7-0.html
+- CentOS 기준으로 준비함
+
+## 설치전에 확인 사항
+### 지원 운영체제 확인
+- RHEL-compatible 
+    - Red Hat Enterprise Linux and CentOS, 64-bit  : 
+	    - 5.7, 5.10,  6.4,  6.5,  6.6,  6.7,  7.1,  7.2   
+	- Oracle Enterprise Linux with default kernel and Unbreakable Enterprise Kernel, 64-bit
+	    - 5.7, 5.10, 5.11, 6.4 (UEK R2), 6.5 (UEK R2, UEK R3), 6.6 (UEK R3), 6.7 (UEK R3), 7.1, 7.2
+	- SLES - SUSE Linux Enterprise Server 11, Service Pack 4, 64-bit is supported by CDH 5.7 and higher. 
+	- Debian - Wheezy 7.0, 7.1, and 7.8, 64-bit. (Squeeze 6.0 is only supported by CDH 4.)
+	- Ubuntu - Trusty 14.04 (LTS) and Precise 12.04 (LTS), 64-bit. (Lucid 10.04 is only supported by CDH 4.)
+
+### 지원되는 JDK 버전
+- Oracle JDK 7u55
+- Oracle JDK 6u31
+
+### 지원되는 데이터베이스(UTF8 character set encoding 지원필요)
+- MySQL , MariaDB , Oracle 11, Oracle 12, PostgreSQL 
+	
+### 요구되는 리소스
+- 디스크 용량
+    - Cloudera Manager Server( 관리서버 )
+	    - /var : 5 GB
+	    - /usr : 500 MB
+	- Cloudera Management Service( 서비스서버 )
+	    - /var : 20 GB
+- RAM : 4GB
+- Python : CDH 5 requires Python 2.6 or 2.7
+
+- 요구되는 네트워킹
+	- ssh 통신 필요
+	- Security-Enhanced Linux (SELinux) 설정 해제
+	- 7180 포트 오픈
+
+
+## 설치전 관리서버에서의 준비작업
+- 모든 작업은 root 계정으로..
+- 모든 서버의 root 패스워드는 동일하게 설정하는 것이 작업이 편리함. 필수는 아님.
+- 클러스터를 구성하는 서버들의 도메인명을 등록
+- DNS에 등록하는 것이 좋으나, 여건이 안 되면 /etc/hosts 에 등록함.
+```
+vi /etc/hosts
+192.168.xx.xx1  master01.mycompany.co.kr  master01  # master01이 관리서버라고 가정함.
+192.168.xx.xx2  master02.mycompany.co.kr  master02
+
+192.168.xx.x03  node01.mycompany.co.kr  node01
+192.168.xx.x04  node02.mycompany.co.kr  node02
+192.168.xx.x05  node03.mycompany.co.kr  node03
+192.168.xx.x06  node04.mycompany.co.kr  node04
+192.168.xx.x07  node05.mycompany.co.kr  node05
+192.168.xx.x08  node06.mycompany.co.kr  node06
+```
+
+- 관리서버에서 ssh 로그인과정 없이 접속 가능하도록 설정
+```
+# ssh-keygen 입력후에 특별한 입력없이 엔터 3번
+ssh-keygen
+
+# 클러스터를 구성하는 모든 서버들에 대해서 아래와 같이 함
+# 첫번째 입력 요구시 yes, 두번째 입력 요구시 해당서버의 root 패스워드 입력
+ssh-copy-id -i  ~/.ssh/id_rsa.pub  master01
+ssh-copy-id -i  ~/.ssh/id_rsa.pub  master02
+ssh-copy-id -i  ~/.ssh/id_rsa.pub  node01
+        ~
+ssh-copy-id -i  ~/.ssh/id_rsa.pub  node06
+
+# 관리서버의 ~/.ssh/의 파일들을 모든 서버들에 카피함.
+# 아래 작업후에는 모든 서버들간에는 ssh을 로그인과정없이 접속이 가능함.
+scp -R  ~/.ssh/  master01:~/.ssh/
+     ~ 
+scp -R  ~/.ssh/  node06:~/.ssh/
+```
+	
+- 여러 서버에 동시에 명령어를 내리는 방법( PSSH 이용 )
+```
+# PSSH 설치
+cd /usr/local/src
+wget http://parallel-ssh.googlecode.com/files/pssh-2.1.1.tar.gz
+tar xvf pssh-2.1.1.tar.gz
+cd pssh-2.1.1
+wget 'http://peak.telecommunity.com/dist/ez_setup.py'
+python ez_setup.py
+python setup.py install
+
+# 홈디렉토리에 all_hosts.txt 와 hosts.txt 만들기
+vi ~/all_hosts.txt  # 관리서버를 포함함
+master01
+~
+node06
+
+vi ~/hosts.txt    # 관리서버를 포함하지 않음
+master02
+~
+node06
+
+# /etc/hosts 파일을 관리서버를 제외한 모든 서버에 카피
+pscp -h ~/hosts.txt  /etc/hosts   /etc/hosts
+```
+
+	
+## 설치전 준비 작업
+- 모든 root 관련으로 하둡클러스터를 구성하는 모든 서버에 동일하게 적용함.
+- 아래 명령어들은 pssh 이용해서 모든 서버에 명령을 내릴 수 있음
+    - 예) pssh -h ~/all_hosts.txt  service iptables stop
+	- 예) pssh -h ~/all_hosts.txt  chkconfig iptables off
+
+- Iptables 정지( 방화벽 정지 )
+```
+service iptables stop
+chkconfig iptables off
+```
+
+- Selinux 정지
+```
+setenforce 0
+vi /etc/sysconfig/selinux
+SELINUX=disabled
+```
+
+- swappiness 설정
+```
+sysctl –w vm.swappiness=0
+vi /etc/sysctl.conf
+vm.swappiness = 0
+```
+
+- transparent_hugepage 설정
+```
+echo “never” > /sys/kernel/mm/transparent_hugepage/defrag
+vi /etc/rc.local
+echo “never” > /sys/kernel/mm/transparent_hugepage/defrag
+```
+
+- NTP 동기화
+```
+yum install –y ntp
+ntpdate kr.pool.ntp.org
+service ntpd start
+chkconfig ntpd on
+```
+
+- file descriptor 수정
+```
+vi /etc/security/limits.conf
+*    hard nofile 131072
+*    soft nofile 131072
+root hard nofile 131072
+root soft nofile 131072
+```
+
+
+
+
+
+
+
+
+
+
+
+
