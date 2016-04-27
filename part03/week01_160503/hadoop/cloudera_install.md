@@ -130,9 +130,11 @@ pssh -h ~/all_hosts.txt  'sysctl –w vm.swappiness=0'
 - transparent_hugepage 설정
 ```
 pssh -h ~/all_hosts.txt   echo never > /sys/kernel/mm/transparent_hugepage/defrag
-pssh -h ~/all_hosts.txt   "cat <<EOT >>  /etc/rc.local \
-echo never > /sys/kernel/mm/transparent_hugepage/defrag \
-EOT"
+cat <<EOT >>  /etc/rc.local
+echo never > /sys/kernel/mm/transparent_hugepage/defrag
+EOT
+
+pscp -h ~/all_hosts.txt /etc/rc.local  /etc/rc.local
 ```
 
 - NTP 동기화
@@ -200,7 +202,7 @@ chmod u+x cloudera-manager-installer.bin
 ![](cloudera_install_06.jpg)
 
 - 오라클 자바의 사용권 계약 동의와 암호화 관련 자바 패키지를 설치여부임.
-- 돈 나가는 일이 아니기 때문에 모든 선택하고  계속 버튼 클릭
+- 돈 나가는 일이 아니기 때문에 모두 선택하고  계속 버튼 클릭
 ![](cloudera_install_07.jpg)
 
 - 단일 사용자 모드 활성화 여부를 묻는 과정으로 특별한 이유가 없으면 선택하지 않고  계속 버튼 클릭
@@ -215,6 +217,49 @@ chmod u+x cloudera-manager-installer.bin
 - 특정 호스트에서 오류가 생기거나 잘 시간 진행상태가 변화가 없으면 설치중단 시키고, 재시작 시킬 수 있음.
 - 모든 설치가 완료되면 계속 버튼 클릭
 ![](cloudera_install_10.jpg)
+
+- 클라우데라 하둡을 설치중 화면, 완료가 되면  계속버튼이 활성화됨. 10분 정도 걸림.
+- 모든 설치가 완료되면 계속 버튼 클릭
+![](cloudera_install_11.jpg)
+
+- 준비작업중에서 빼먹은것이 있으면 경고메시지가 나옴.
+- 모든 호스트들에 대해서 안내 메시지와 같이 처리하고 "다시 실행"버튼을 클릭함
+- 모든 검증에 문제가 없으면 완료 버튼 클릭
+![](cloudera_install_12.jpg)
+
+
+- 클러스터 설정으로 원하는 서비스 조합을 선택하거나 사용자 지정 서비스를 선택함.
+![](cloudera_install_13.jpg)
+
+- 사용자 지정 서비스를 선택했을때의 화면. 잘 선택하고 계속 버튼 클릭
+![](cloudera_install_15.jpg)
+
+- 클러스터내의 호스트들의 역할 할당 지정하는 과정임.
+- "호스트 선택"으로 된것은 아직 미지정이므로 역할이 고루 분포되도록 하고 다 하고 계속 버튼 클릭
+![](cloudera_install_16.jpg)
+
+- 데이터베이스 설정으로 이전 과정에서 문제가 없었으면 변경없이 테스트 연결 버튼을 클릭함.
+- "사용자 지정 데이터베이스 사용"을 선택하려면, 설치 가이드 링크를 참조함.
+- 특별한 이유가 없으면, 그냥 내장된 데이터베이스 사용을 선택하고 계속 버튼 클릭
+![](cloudera_install_17.jpg)
+
+- 클러스터 설정 변경 내용 검토로 "DataNode 데이터 디렉토리"와 "NameNode 데이터 디렉토리"를 주의해서 결정이 필요함.
+- "DataNode 데이터 디렉토리"에는 많은 데이터가 생성되는 곳으로 용량이 많은 디스크를 선택함.
+- "NameNode 데이터 디렉토리"은 하둡의 파일 정보를 저장하는 곳으로 안정적인 스토리지로 선택하거나 데이터를 이중화 할 수 있음.
+- 잘 선택하고 계속 버튼 클릭
+![](cloudera_install_18.jpg)
+
+
+- 클러스터 구성 요소들이 배포 진행 화면. 다 완료되면 계속 버튼 클릭
+![](cloudera_install_19.jpg)
+
+
+
+
+
+
+
+
 
 
 
