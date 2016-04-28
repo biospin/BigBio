@@ -39,6 +39,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [분산 TensorFlow 컴파일 및 테스트](https://github.com/biospin/BigBio/blob/master/reference/tensorflow/tensorflow_install.md)
 - [빅데이터분석-무료 동영상 강의 한글](https://github.com/biospin/BigBio/blob/master/reference/hadoop/bigdata_analysis.md)
 - [하둡 및 Spark로 개발된 바이오인포 도구 목록](https://github.com/biospin/BigBio/blob/master/reference/hadoop/big_bioinfo_tool.md)
+- [클라우데라 배포판으로 하둡 설치하기](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/hadoop/cloudera_install.md)
 
 ## 데이터 분석 실습용 데이터
 - 공유폴더  > 빅바이오 > 참고자료 > 학습용 데이터 
@@ -99,7 +100,10 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(통계기초) [Introductory Statistics with R (Chap. 15~16 R실습)(유재용)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/statistics/%EB%B0%9C%ED%91%9C_%EC%9C%A0%EC%9E%AC%EC%9A%A9.R)
 |    |          |(딥러닝 실습) [Recurrent Neural Networks 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%9D%B4%EB%A1%A0.ipynb)
 |    |          |(딥러닝 실습) [RNN 실습](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%8B%A4%EC%8A%B5.ipynb), [Udacity Word2Vect](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/5_word2vec.ipynb), [Udacity LSTM](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/6_lstm.ipynb)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 1 ~ 2장(박세진)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark)이론: 1 ~ 2장(박세진)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pptx)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark)실습: 1 ~ 2장(박세진)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark_ch02example.ipynb)
+
+
 
 
 ### Part 3.
