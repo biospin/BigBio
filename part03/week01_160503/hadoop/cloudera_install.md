@@ -134,7 +134,7 @@ cat <<EOT >>  /etc/rc.local
 echo never > /sys/kernel/mm/transparent_hugepage/defrag
 EOT
 
-pscp -h ~/all_hosts.txt /etc/rc.local  /etc/rc.local
+pscp -h ~/hosts.txt /etc/rc.local  /etc/rc.local
 ```
 
 - NTP 동기화
@@ -147,6 +147,7 @@ server 2.asia.pool.ntp.org
 EOT
 
 pscp -h ~/all_hosts.txt /etc/ntp.conf  /etc/ntp.conf 
+pssh -h ~/all_hosts.txt   service ntpd stop
 pssh -h ~/all_hosts.txt   ntpdate kr.pool.ntp.org
 pssh -h ~/all_hosts.txt   service ntpd start
 pssh -h ~/all_hosts.txt   chkconfig ntpd on
@@ -171,12 +172,14 @@ pssh -h ~/all_hosts.txt  reboot
 
 ## Cloudera Manager 설치
 - 관리서버에서만 root 계정으로
-
+- 5 ~ 10분 정도 소요
 ```
 wget http://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 chmod u+x cloudera-manager-installer.bin
 ./cloudera-manager-installer.bin
 ```
+![](cloudera_install_00.jpg)
+
 
 - 설치완료가 되면,  http://관리서버IP:7180 으로 브라우저로 접속하라고 함.
 - 초기 admin ID의 패스워드는 admin 임.
@@ -252,6 +255,13 @@ chmod u+x cloudera-manager-installer.bin
 
 - 클러스터 구성 요소들이 배포 진행 화면. 다 완료되면 계속 버튼 클릭
 ![](cloudera_install_19.jpg)
+
+- 모든 설치가 완료가 되었다는 화면임. 완료 버튼 클릭
+![](cloudera_install_20.jpg)
+
+- 완료된 클라우데라 매니저 화면. 
+- 더그커팅에게 감사하는 마음으로 잘 사용하자~~
+![](cloudera_install_21.jpg)
 
 
 
