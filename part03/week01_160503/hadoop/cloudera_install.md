@@ -120,11 +120,17 @@ pssh -h ~/all_hosts.txt  chkconfig iptables off
 - Selinux 정지
 ```
 pssh -h ~/all_hosts.txt  'setenforce 0'
+sed -e 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+
+pscp -h ~/all_hosts.txt /etc/sysconfig/selinux  /etc/sysconfig/selinux 
 ```
 
 - swappiness 설정
 ```
 pssh -h ~/all_hosts.txt  'sysctl –w vm.swappiness=0'
+
+cat 'vm.swappiness=0' >> /etc/sysctl.conf 
+pscp -h ~/all_hosts.txt  /etc/sysctl.conf   /etc/sysctl.conf
 ```
 
 - transparent_hugepage 설정
