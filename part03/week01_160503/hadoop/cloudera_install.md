@@ -87,6 +87,8 @@ wget 'http://peak.telecommunity.com/dist/ez_setup.py'
 python ez_setup.py
 python setup.py install
 
+
+
 # 홈디렉토리에 all_hosts.txt 와 hosts.txt 만들기
 cat <<EOT >> ~/all_hosts.txt
 # 관리서버를 포함함
@@ -121,11 +123,10 @@ pssh -h ~/all_hosts.txt  chkconfig iptables off
 ```
 pssh -h ~/all_hosts.txt  'setenforce 0'
 
-sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
-or
 # sed 명령어를 이용해서 변경해도 실제로 적용이 안됨. vi 로 수작업이 필요함.
+# sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux  이 방법은 안 됨.
 vi /etc/sysconfig/selinux
-SELINUX=enforcing 문자열을 SELINUX=disabled로 변경함.
+SELINUX=enforcing  =>  SELINUX=disabled  로 변경함.
 
 pscp -h ~/hosts.txt /etc/sysconfig/selinux  /etc/sysconfig/selinux
 ```
