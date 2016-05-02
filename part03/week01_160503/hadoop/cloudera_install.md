@@ -71,9 +71,9 @@ ssh-copy-id -i  ~/.ssh/id_rsa.pub  node06
 
 # 관리서버의 ~/.ssh/의 파일들을 모든 서버들에 카피함.
 # 아래 작업후에는 모든 서버들간에는 ssh을 로그인과정없이 접속이 가능함.
-scp -r  ~/.ssh/  master01:~/.ssh/
+scp -r  ~/.ssh/*  master01:~/.ssh/
      ~ 
-scp -r  ~/.ssh/  node06:~/.ssh/
+scp -r  ~/.ssh/*  node06:~/.ssh/
 ```
 	
 - 여러 서버에 동시에 명령어를 내리는 방법( PSSH 이용 )
