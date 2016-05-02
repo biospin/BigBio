@@ -120,17 +120,23 @@ pssh -h ~/all_hosts.txt  chkconfig iptables off
 - Selinux 정지
 ```
 pssh -h ~/all_hosts.txt  'setenforce 0'
-sed -e 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
 
-pscp -h ~/all_hosts.txt /etc/sysconfig/selinux  /etc/sysconfig/selinux 
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+or
+# sed 명령어를 이용해서 변경해도 실제로 적용이 안됨. vi 로 수작업이 필요함.
+vi /etc/sysconfig/selinux
+SELINUX=enforcing 문자열을 SELINUX=disabled로 변경함.
+
+pscp -h ~/hosts.txt /etc/sysconfig/selinux  /etc/sysconfig/selinux
 ```
 
 - swappiness 설정
 ```
 pssh -h ~/all_hosts.txt  'sysctl –w vm.swappiness=0'
 
-cat 'vm.swappiness=0' >> /etc/sysctl.conf 
-pscp -h ~/all_hosts.txt  /etc/sysctl.conf   /etc/sysctl.conf
+echo 'vm.swappiness=0' >> /etc/sysctl.conf
+ 
+pscp -h ~/hosts.txt  /etc/sysctl.conf   /etc/sysctl.conf
 ```
 
 - transparent_hugepage 설정
@@ -146,13 +152,19 @@ pscp -h ~/hosts.txt /etc/rc.local  /etc/rc.local
 - NTP 동기화
 ```
 pssh -h ~/all_hosts.txt   yum install -y ntp
+또는
+pscp -h ~/hosts.txt  /root/ntp-4.2.6p5-5.el6.centos.4.x86_64.rpm  /root/
+pscp -h ~/hosts.txt  /root/ntpdate-4.2.6p5-5.el6.centos.4.x86_64.rpm  /root/
+pssh -h ~/all_hosts.txt "rpm -Uvh  ntpdate-4.2.6p5-5.el6.centos.4.x86_64.rpm    ntp-4.2.6p5-5.el6.centos.4.x86_64.rpm"
+
+
 cat <<EOT >>  /etc/ntp.conf 
 server 0.kr.pool.ntp.org
 server 3.asia.pool.ntp.org
 server 2.asia.pool.ntp.org
 EOT
 
-pscp -h ~/all_hosts.txt /etc/ntp.conf  /etc/ntp.conf 
+pscp -h ~/hosts.txt       /etc/ntp.conf  /etc/ntp.conf 
 pssh -h ~/all_hosts.txt   service ntpd stop
 pssh -h ~/all_hosts.txt   ntpdate kr.pool.ntp.org
 pssh -h ~/all_hosts.txt   service ntpd start
@@ -168,7 +180,7 @@ root hard nofile 131072
 root soft nofile 131072
 EOT
 
-pscp -h ~/all_hosts.txt /etc/security/limits.conf  /etc/security/limits.conf
+pscp -h ~/hosts.txt /etc/security/limits.conf  /etc/security/limits.conf
 ```
 
 - 모든 서버 리부팅
@@ -268,14 +280,5 @@ chmod u+x cloudera-manager-installer.bin
 - 완료된 클라우데라 매니저 화면. 
 - 더그커팅에게 감사하는 마음으로 잘 사용하자~~
 ![](cloudera_install_21.jpg)
-
-
-
-
-
-
-
-
-
 
 
