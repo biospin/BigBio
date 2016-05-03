@@ -41,6 +41,13 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 - [하둡 및 Spark로 개발된 바이오인포 도구 목록](https://github.com/biospin/BigBio/blob/master/reference/hadoop/big_bioinfo_tool.md)
 - [클라우데라 배포판으로 하둡 설치하기](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/hadoop/cloudera_install.md)
 
+## 데이터 분석 실습
+- 실습 주제 : 암 환자 RNA정보를 활용한 암 예측 모델 개발
+- [암환자 RNA 정보 획득방법 및 Data 구조파악](https://github.com/biospin/DeepBio/blob/master/part03/Week1_160105/Cancer_Data.ipynb)
+- [암환자  mRNA 데이터 수집 및 구조](https://github.com/biospin/DeepBio/blob/master/exercise01/cancer_data_structur.ipynb)
+- [암환자  mRNA데이터를 DB와 HBase에 올리기](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_Upload_script.ipynb)
+- [암환자  mRNA에서 학습용, Valiaiotion용, Test용 데이터 만들기](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
+
 ## 데이터 분석 실습용 데이터
 - 공유폴더  > 빅바이오 > 참고자료 > 학습용 데이터 
 - mrna_20160125-200855_type1_00.pkl.gz 와 같은 파일이 24개,  전체 용량 700MB
