@@ -107,7 +107,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(통계기초) [Introductory Statistics with R (Chap. 15~16 R실습)(유재용)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/statistics/%EB%B0%9C%ED%91%9C_%EC%9C%A0%EC%9E%AC%EC%9A%A9.R)
 |    |          |(딥러닝 실습) [Recurrent Neural Networks 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%9D%B4%EB%A1%A0.ipynb)
 |    |          |(딥러닝 실습) [RNN 실습](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/RNN_%EC%8B%A4%EC%8A%B5.ipynb), [Udacity Word2Vect](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/5_word2vec.ipynb), [Udacity LSTM](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/tensorflow/6_lstm.ipynb)
-|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark)이론: 1 ~ 2장(박세진)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pptx)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark)이론: 1 ~ 2장(박세진)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark%20CH1_2_Learning%20Spark.pdf)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark)실습: 1 ~ 2장(박세진)](https://github.com/biospin/BigBio/blob/master/part02/week04_160426/spark/bicbio_spark_ch02example.ipynb)
 
 
@@ -117,9 +117,10 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016.5.3  |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )(지용기)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장(이승우)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장(박혜진)
+|  1 |2016.5.3  |(딥러닝 실습) [암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )(지용기)](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
+|    |          |[(빅데이터 기초) 러닝 스파크(Learning Spark) 이론 : 3장(이승우)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/Programming%20with%20RDDs.pdf)
+|    |          |[(빅데이터 기초) 러닝 스파크(Learning Spark) 실습 : 3장(이승우)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/Getting_Started_with_RDDs.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 4장(박혜진)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/spark_04_key_value_pair.ipynb)
 |  2 |2016.5.10 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장(손준영)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장
