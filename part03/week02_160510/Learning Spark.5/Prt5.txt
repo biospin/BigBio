@@ -1,0 +1,4 @@
+Name	Country	Email	OS
+John	USA	john@gmail.com	Windows
+Smith	Canada	smith@yahoo.com	Linux
+Yan	China	yan@alibaba.com	Windows
