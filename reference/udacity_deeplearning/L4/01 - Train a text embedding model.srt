@@ -7,7 +7,7 @@ handle text in a deep model.
 
 2
 00:00:03,969 --> 00:00:06,190
-당신이 문서를 분류하기를
+당신이 문서 분류하기를
 원하다고 상상해보세요.
 Imagine that you want
 to classify a document.
@@ -33,7 +33,7 @@ to figure that out.
 
 6
 00:00:15,260 --> 00:00:17,100
-포함된 단어들이 정말로 어렵습니다.
+단어들이 정말로 어렵습니다.
 Words are really difficult.
 
 7
@@ -59,8 +59,7 @@ duh, you don't know much at all.
 
 10
 00:00:31,430 --> 00:00:34,960
-그러나 retinopathy(망막병증)이란 
-단어가 있다면, 
+그러나 retinopathy(망막병증)이란 단어가 있다면, 
 But if you know that it
 contains retinopathy,
 
