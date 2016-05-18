@@ -125,11 +125,11 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형 1, 실습2)(조익연)](https://github.com/biospin/BigBio/blob/master/part03/week02_160510/TensorFlow%ED%99%9C%EC%9A%A9%20%EC%95%94%EC%A2%85%EB%A5%98%20%EC%98%88%EC%B8%A1%202.ipynb)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) 이론 : 5장(손준영)](https://github.com/biospin/BigBio/blob/master/part03/week02_160510/Learning%20Spark.5/Learning%20Spark%205-pres-JY.pdf)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) 실습 : 5장(손준영)](https://github.com/biospin/BigBio/blob/master/part03/week02_160510/Learning%20Spark.5/Learning%20Spark%205.ipynb)
-|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 6장(박세진)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/Ch8_SparkConf.pdf)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장(박세진)
 |  3 |2016.5.17 |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형 2)(조익연)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/TensorFlow%ED%99%9C%EC%9A%A9%20%EC%95%94%EC%A2%85%EB%A5%98%20%EC%98%88%EC%B8%A1_%EC%B5%9C%EC%A2%85.ipynb)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 7장(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/spark/learning.spark.07.RunningOnaCluster.ipynb)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 8장(박혜진)
-|  4 |2016.5.24 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(MLP)()
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 8장(박혜진)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/Ch8_SparkConf.pdf)
+|  4 |2016.5.24 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(MLP)(한성국)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 9장(박세진)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 11장
 
