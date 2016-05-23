@@ -131,7 +131,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 8장(박혜진)](https://github.com/biospin/BigBio/blob/master/part03/week03_160517/Ch8_SparkConf.pdf)
 |  4 |2016.5.24 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(MLP)(한성국)
 |    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 9장(박세진)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 11장
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/learning.spark.11.MachineLearningwithMLlib.ipynb)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 실습(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/05.Building%20a%20Classification%20Model%20with%20Spark.ipynb)
 
 
 ### Part 4.
