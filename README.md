@@ -132,7 +132,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |  4 |2016.5.24 |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(MLP) 이론(한성국)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/tensorflow/tensorflow-mlp.pdf)
 |    |          |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(MLP) 코드(한성국)](https://github.com/biospin/BigBio/tree/master/part03/week04_160525/tensorflow)
 |    |          |(딥러닝 실습) [TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(데이터 변환 및 PCA 활용)(박혜진)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/preprocessing_logistic_Hyejin_Park.ipynb)
-|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 9장(박세진)
+|    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 9장(박세진)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/BIGBIO_LearningSpark_ch9_SPARKSQL.ipynb)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/learning.spark.11.MachineLearningwithMLlib.ipynb)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 실습(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/05.Building%20a%20Classification%20Model%20with%20Spark.ipynb)
 
