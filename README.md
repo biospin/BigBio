@@ -203,7 +203,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  26장
 
 
-### 스터드 스케줄에 없는 구글 genomics 문서들  
+### 스케줄에 없는 구글 genomics 문서들  
 - (구글 genomics)  http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_variants/index.html  :
     - Docs » Analyze Data in Google Genomics »  Analyze Variants 
 - (구글 genomics)  http://googlegenomics.readthedocs.io/en/latest/use_cases/annotate_variants/index.html   :
