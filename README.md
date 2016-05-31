@@ -144,19 +144,16 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |  1 |2016.5.31|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    What Is Google Genomics?,  Pricing and Quotas ,   Getting Started (이승우)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장(박세진)
-|  2 |2016.6.7  |(구글 genomics) https://cloud.google.com/genomics/v1/analyze-variants :  
-|    |          |    How-to Guide: Analyze Variants Using BigQuery( 조익연 )
+|  2 |2016.6.7  |(구글 genomics) [How-to Guide: Analyze Variants Using BigQuery](https://cloud.google.com/genomics/v1/analyze-variants)( 조익연 )
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  5장 ( 박혜진 )
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  6장 ( 지용기 )
-|  3 |2016. 6.14|(구글 genomics) https://cloud.google.com/genomics/install-genomics-tools : 
-|    |          |     How-to Guide : Installing the Cloud SDK and Genomics Commands
+|  3 |2016. 6.14|(구글 genomics) [How-to Guide : Installing the Cloud SDK and Genomics Commands](https://cloud.google.com/genomics/install-genomics-tools)
 |    |          |     1.Download and install the Cloud SDK.
 |    |          |     2.Initialize the Cloud SDK.
 |    |          |     3.After you have run gcloud init, install the Genomics commands: 
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  7장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  8장
-|  4 |2016. 6.21|(구글 genomics) https://cloud.google.com/genomics/v1/load-variants :  
-|    |          |    How-to Guide :  Loading Genomic Variants 
+|  4 |2016. 6.21|(구글 genomics) [How-to Guide :  Loading Genomic Variants](https://cloud.google.com/genomics/v1/load-variants) 
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  9장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  10장
 
@@ -164,20 +161,17 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 6.28|(구글 genomics) https://cloud.google.com/genomics/gatk : 
-|    |          |     Broad Institute GATK on Google Genomics 
+|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) 
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  11장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  12장
-|  2 |2016. 7. 5|(구글 genomics) https://cloud.google.com/genomics/v1alpha2/pipelines  :
-|    |          |    Running Custom Pipelines 
+|  2 |2016. 7. 5|(구글 genomics) [Running Custom Pipelines](https://cloud.google.com/genomics/v1alpha2/pipelines) 
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  13장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  14장
-|  3 |2016. 7.12|(구글 genomics) https://cloud.google.com/genomics/v1/public-data  :
-|    |          |Google Genomics Public Data:full list of published data정리, 3가지 access방법에 대한 예제 보여주기
+|  3 |2016. 7.12|(구글 genomics) [Google Genomics Public Data](https://cloud.google.com/genomics/v1/public-data)
+|    |          |full list of published data정리, 3가지 access방법에 대한 예제 보여주기
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  15장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  16장
-|  4 |2016. 7.19|(구글 genomics)http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html :
-|    |          |Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel
+|  4 |2016. 7.19|(구글 genomics)[Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  17장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  18장
 
@@ -185,20 +179,16 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 7.26|(구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html  :
-|    |          |Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine
+|  1 |2016. 7.26|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  19장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  20장
-|  2 |2016. 8. 2|(구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html  :
-|    |          | Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers
+|  2 |2016. 8. 2|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  21장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  22장
-|  3 |2016. 8. 9|(구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html 
-|    |          |  Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage
+|  3 |2016. 8. 9|(구글 genomics) [Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  23장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  24장
-|  4 |2016. 8.16|(구글 genomics) http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html 
-|    |          |Docs » Analyze Data in Google Genomics » Analyze Reads
+|  4 |2016. 8.16|(구글 genomics) [Docs » Analyze Data in Google Genomics » Analyze Reads](http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  25장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  26장
 
