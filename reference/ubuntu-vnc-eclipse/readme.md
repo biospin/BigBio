@@ -29,10 +29,12 @@ http://www.tightvnc.com/download/2.7.10/tightvnc-2.7.10-setup-64bit.msi
 
 ## VNC로 Docker 내부로 접속해서 설정하기
 - virtualbox의 우분투에서도 이와 동일하게 설정함.
+- Virtualbox에서 아래 명령어 앞에 sudo 를 붙임
 
 
 - 자바, 이클립스, git, wget 설치하기
 ```
+apt-get update -y
 apt-get install wget git openjdk-7-jdk  eclipse  -y
 ```
 
@@ -44,9 +46,9 @@ tar xvf apache-maven-3.2.5-bin.tar.gz
 
 cat <<EOT >> ~/.bashrc
 JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
-MAVEN_HOME=/root/apache-maven-3.2.5
+MAVEN_HOME=`echo $HOME`/apache-maven-3.2.5
 
-export PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH
+export PATH=\$JAVA_HOME/bin:\$MAVEN_HOME/bin:\$PATH
 EOT
 
 source ~/.bashrc
@@ -58,3 +60,32 @@ cd ~/
 
 git clone https://github.com/mahmoudparsian/data-algorithms-book/
 ```
+
+## 이클립스 설정
+- 우분투의 메뉴에 Eclipse가 등록되어 있음.
+- 메뉴을 통해서 이클립스 실행
+- Welcome 탭이 나오면 당황하지 말고,  Welcome탭에 있는 x 버튼을 클릭함.
+### maven 이클립스 플러그인을 설치하기
+    - 이클립스 -> 상단메뉴바 -> Help -> Install New Software ... 
+	- Work width 입력빌드에 Indigo Update Site 라고 입력하고, 선택함.
+	- Work width 입력빌드 아래에 여러 가지 목록이 나오고, 여기서 collaboration을 선택.
+	- collaboration안의 여러 가지 패키지가 있고,  m2e-Maven Integration for Eclipse를 체크한 후에 Next버튼 클릭
+	- 다음 화면에서 다시 Next 버튼 클릭
+	- 다음 화면에서 라이센스 동의를 선택하고 Finish 버튼 클릭
+	- 이클립스 restart하는 알림창이 나오면, Yes 클릭
+
+### 하둡 MapReduce 실습용 Maven 프로젝트 생성
+- 이클립스 -> 상단메뉴바 -> File -> Project...
+- New Project 위자드창에서 Maven -> Maven Project 를 선택하고 Next 버튼 클릭함
+- 다음화면에서  그냥 Next 버튼 클릭함
+- 다음화면에서 maven-archetype-quickstart 가 선택되어 있고, 그냥 Next 버튼 클릭함
+- 다음화면에서 
+    - Goup id 입력필드에  org.biospin.bigbio   라고 입력
+    - Arifact id 입력필드에 hadoop1x  라고 입력하고 Next 버튼 클릭함.
+- 다음화면에서는 프로젝트가 만들어진 화면이 나옴.
+![](eclipse_01.png)
+
+	
+
+
+
