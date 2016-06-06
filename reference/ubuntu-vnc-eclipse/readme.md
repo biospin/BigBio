@@ -54,6 +54,18 @@ EOT
 source ~/.bashrc
 ```
 
+- 이클립스 최신버전 설치
+- 위에서 구버전을 설치했음. maven 이클립스 플러그인 설치시에 문제 있을 경우에만 설치함.
+```
+
+cd ~/
+wget http://dist.springsource.com/release/STS/3.6.4.RELEASE/dist/e4.4/groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-linux-gtk-x86_64.tar.gz
+tar xvf groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-linux-gtk-x86_64.tar.gz
+
+```
+
+
+
 - 예제소스 받기
 ```
 cd ~/
@@ -85,6 +97,20 @@ git clone https://github.com/mahmoudparsian/data-algorithms-book/
 - 다음화면에서는 프로젝트가 만들어진 화면이 나옴.
 ![](eclipse_01.png)
 
+- pom.xml 편집
+    - pom.xml 더블클릭하고, 편집창에 아래에 Overview 탭으로 설정된것을  pom.xml 탭을 선택하면 텍스트들이 보여짐.
+	- dependency을 추가함.
+```
+dependency
+
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-core</artifactId>
+    <version>1.2.0</version>
+</dependency>
+
+
+```
 	
 
 
