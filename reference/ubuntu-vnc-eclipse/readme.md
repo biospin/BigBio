@@ -62,6 +62,11 @@ cd ~/
 wget http://dist.springsource.com/release/STS/3.6.4.RELEASE/dist/e4.4/groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-linux-gtk-x86_64.tar.gz
 tar xvf groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-linux-gtk-x86_64.tar.gz
 
+cat <<EOT >> ~/eclipse.sh
+~/ggts-boundle/ggts-3.6.4.RELEASE/GGTS
+EOT
+
+chmod +x ~/eclipse.sh
 ```
 
 
