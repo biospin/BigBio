@@ -146,7 +146,8 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장(박세진)
 |  2 |2016.6.7  |(구글 genomics) [How-to Guide: Analyze Variants Using BigQuery](https://cloud.google.com/genomics/v1/analyze-variants)( 조익연 )
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  5장 ( 박혜진 )
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  6장 ( 지용기 )
+|    |          |(빅데이터 유전체 분석) [테스트환경 구축](https://github.com/biospin/BigBio/tree/master/reference/ubuntu-vnc-eclipse)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  6장 ( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/dataalgorithms06/chap06_moving_average.ipynb)
 |  3 |2016. 6.14|(구글 genomics) [How-to Guide : Installing the Cloud SDK and Genomics Commands](https://cloud.google.com/genomics/install-genomics-tools)
 |    |          |     1.Download and install the Cloud SDK.
 |    |          |     2.Initialize the Cloud SDK.
