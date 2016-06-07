@@ -63,7 +63,7 @@ wget http://dist.springsource.com/release/STS/3.6.4.RELEASE/dist/e4.4/groovy-gra
 tar xvf groovy-grails-tool-suite-3.6.4.RELEASE-e4.4.2-linux-gtk-x86_64.tar.gz
 
 cat <<EOT >> ~/eclipse.sh
-~/ggts-boundle/ggts-3.6.4.RELEASE/GGTS
+~/ggts-bundle/ggts-3.6.4.RELEASE/GGTS
 EOT
 
 chmod +x ~/eclipse.sh
@@ -106,17 +106,63 @@ git clone https://github.com/mahmoudparsian/data-algorithms-book/
     - pom.xml 더블클릭하고, 편집창에 아래에 Overview 탭으로 설정된것을  pom.xml 탭을 선택하면 텍스트들이 보여짐.
 	- dependency을 추가함.
 ```
-dependency
-
-<dependency>
-    <groupId>org.apache.hadoop</groupId>
-    <artifactId>hadoop-core</artifactId>
-    <version>1.2.0</version>
-</dependency>
-
-
+<dependencies>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.11</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.hadoop</groupId>
+		<artifactId>hadoop-core</artifactId>
+		<version>1.2.0</version>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+</dependencies>
 ```
-	
 
+- 로컬 테스트용 클래스 추가함.
+```
+public class SecondarySortDriverTest{
+	@Test
+	public void test() throws Exception {
+		Configuration conf = new Configuration();
+		conf.set("fs.default.name", "file:///");
+		conf.set("mapred.job.tracker", "local");
+		
+		Path input = new Path("input/sample_input.txt");
+		Path output = new Path("output/secondary/");
+		
+		FileSystem fs = FileSystem.getLocal(conf);
+		fs.delete(output, true); // delete old output
+		SecondarySortDriver driver = new SecondarySortDriver();
+		driver.setConf(conf);
+		int exitCode = driver.run(new String[] {
+			input.toString(), output.toString() }
+		);
+	}
+}
+```
 
+- 테스트용 데이터 ( sample_input.txt )
+```
+2000,12,04, 10
+2000,11,01,20
+2000,12,02,-20
+2000,11,07,30
+2000,11,24,-40
+2012,12,21,30
+2012,12,22,-20
+2012,12,23,60
+2012,12,24,70
+2012,12,25,10
+2013,01,22,80
+2013,01,23,90
+2013,01,24,70
+2013,01,20,-10
+```
 
