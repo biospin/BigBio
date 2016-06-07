@@ -125,7 +125,7 @@ git clone https://github.com/mahmoudparsian/data-algorithms-book/
 </dependencies>
 ```
 
-- 로컬 테스트용 클래스 추가함.
+- src/test/java 폴더안에  로컬 테스트용 클래스 추가함.
 ```
 public class SecondarySortDriverTest{
 	@Test
@@ -150,7 +150,7 @@ public class SecondarySortDriverTest{
 
 - 테스트용 데이터 ( sample_input.txt )
 ```
-2000,12,04, 10
+2000,12,04,10
 2000,11,01,20
 2000,12,02,-20
 2000,11,07,30
