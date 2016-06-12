@@ -144,7 +144,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |  1 |2016.5.31|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    What Is Google Genomics?,  Pricing and Quotas ,   Getting Started (이승우)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장(박세진)
-|  2 |2016.6.7  |(구글 genomics) [How-to Guide: Analyze Variants Using BigQuery](https://cloud.google.com/genomics/v1/analyze-variants)( 조익연 )
+|  2 |2016.6.7  |(구글 genomics) [How-to Guide: Analyze Variants Using BigQuery](https://cloud.google.com/genomics/v1/analyze-variants)( 조익연 )[발표자료](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/Google%20Genomics_BigQuery.pdf)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  5장 ( 박혜진 )
 |    |          |(빅데이터 유전체 분석) [테스트환경 구축](https://github.com/biospin/BigBio/tree/master/reference/ubuntu-vnc-eclipse)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  6장 ( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/dataalgorithms06/chap06_moving_average.ipynb)
@@ -153,7 +153,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |     2.Initialize the Cloud SDK.
 |    |          |     3.After you have run gcloud init, install the Genomics commands: 
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  7장( 박세진)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  8장( 지용기 )
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  8장( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/dataalgorithms08/Chap08_CommonFriends.ipynb)
 |  4 |2016. 6.21|(구글 genomics) [How-to Guide :  Loading Genomic Variants](https://cloud.google.com/genomics/v1/load-variants) 
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  9장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  10장
