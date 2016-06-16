@@ -148,20 +148,20 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  5장 ( 박혜진 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/oiPattern.pdf)
 |    |          |(빅데이터 유전체 분석) [테스트환경 구축](https://github.com/biospin/BigBio/tree/master/reference/ubuntu-vnc-eclipse)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  6장 ( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/dataalgorithms06/chap06_moving_average.ipynb)
-|  3 |2016. 6.14|(구글 genomics) [How-to Guide : Installing the Cloud SDK and Genomics Commands](https://cloud.google.com/genomics/install-genomics-tools)(이창언)
+|  3 |2016. 6.14|(구글 genomics) [How-to Guide : Installing the Cloud SDK and Genomics Commands](https://cloud.google.com/genomics/install-genomics-tools)(이창언) [발표자료](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/Cloud%20SDK%20And%20Genomics%20Commands.pdf)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  7장( 박세진)](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/Ch7_MarketingBasketAnalysis.pdf)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  8장( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/dataalgorithms08/Chap08_CommonFriends.ipynb)
-|  4 |2016. 6.21|(구글 genomics) [How-to Guide :  Loading Genomic Variants](https://cloud.google.com/genomics/v1/load-variants) 
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  9장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  10장
+|  4 |2016. 6.21|(구글 genomics) [How-to Guide :  Loading Genomic Variants](https://cloud.google.com/genomics/v1/load-variants) (Peterpan Kim)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  9장 (이승우)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  10장 (이창언)
 
 ### Part 5.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) 
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  11장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  12장
+|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) (박세진)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  11장 (박혜진)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  12장 
 |  2 |2016. 7. 5|(구글 genomics) [Running Custom Pipelines](https://cloud.google.com/genomics/v1alpha2/pipelines) 
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  13장
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  14장
