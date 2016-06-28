@@ -153,6 +153,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  8장( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/dataalgorithms08/Chap08_CommonFriends.ipynb)
 |  4 |2016. 6.21|(구글 genomics) [How-to Guide :  Loading Genomic Variants](https://cloud.google.com/genomics/v1/load-variants) (Peterpan Kim)[발표자료](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/Loading%20Genomic%20Variants.pdf)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  9장 (이승우)](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/Chapter%209.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  9장 보강](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/spark/Chap09_Recommendation.ipynb)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  10장 (이창언)
 
 ### Part 5.
