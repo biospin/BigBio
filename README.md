@@ -160,7 +160,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) (박세진)
+|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) [발표자료 (박세진)](https://github.com/biospin/BigBio/blob/master/part05/week01_160628/11.MarkovModel.pdf)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  11장 (박혜진)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  12장 
 |  2 |2016. 7. 5|(구글 genomics) [Running Custom Pipelines](https://cloud.google.com/genomics/v1alpha2/pipelines) 
