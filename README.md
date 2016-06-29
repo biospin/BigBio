@@ -143,53 +143,53 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |----| ---------|----------------------------------------------|-----
 |  1 |2016.5.31|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
 |    |          |    What Is Google Genomics?,  Pricing and Quotas ,   Getting Started (이승우)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장(박세진)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장 : Secondary Sort (박세진)
 |  2 |2016.6.7  |(구글 genomics) [How-to Guide: Analyze Variants Using BigQuery](https://cloud.google.com/genomics/v1/analyze-variants)( 조익연 )[발표자료](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/Google%20Genomics_BigQuery.pdf)
-|    |          |(빅데이터 유전체 분석) [Data Algorithms:  5장 ( 박혜진 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/oiPattern.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  5장  Order Inversion ( 박혜진 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/oiPattern.pdf)
 |    |          |(빅데이터 유전체 분석) [테스트환경 구축](https://github.com/biospin/BigBio/tree/master/reference/ubuntu-vnc-eclipse)
-|    |          |(빅데이터 유전체 분석) [Data Algorithms:  6장 ( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/dataalgorithms06/chap06_moving_average.ipynb)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  6장 Moving Average( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/dataalgorithms06/chap06_moving_average.ipynb)
 |  3 |2016. 6.14|(구글 genomics) [How-to Guide : Installing the Cloud SDK and Genomics Commands](https://cloud.google.com/genomics/install-genomics-tools)(이창언) [발표자료](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/Cloud%20SDK%20And%20Genomics%20Commands.pdf)
-|    |          |(빅데이터 유전체 분석) [Data Algorithms:  7장( 박세진)](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/Ch7_MarketingBasketAnalysis.pdf)
-|    |          |(빅데이터 유전체 분석) [Data Algorithms:  8장( 지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/dataalgorithms08/Chap08_CommonFriends.ipynb)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  7장 Market Basket Analysis( 박세진)](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/Ch7_MarketingBasketAnalysis.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  8장 Common Friends(지용기 )](https://github.com/biospin/BigBio/blob/master/part04/week03_160614/dataalgorithms08/Chap08_CommonFriends.ipynb)
 |  4 |2016. 6.21|(구글 genomics) [How-to Guide :  Loading Genomic Variants](https://cloud.google.com/genomics/v1/load-variants) (Peterpan Kim)[발표자료](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/Loading%20Genomic%20Variants.pdf)
-|    |          |(빅데이터 유전체 분석) [Data Algorithms:  9장 (이승우)](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/Chapter%209.pdf)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  9장 Recommendation Engines Using MapReduce (이승우)](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/Chapter%209.pdf)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  9장 보강](https://github.com/biospin/BigBio/blob/master/part04/week04_160621/spark/Chap09_Recommendation.ipynb)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  10장 (이창언)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  10장 Content-Based Recommendation: Movies (이창언)
 
 ### Part 5.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) 발표자료 (박세진)
-|    |          |(빅데이터 유전체 분석) [Data Algorithms:  11장 (박혜진)](https://github.com/biospin/BigBio/blob/master/part05/week01_160628/11.MarkovModel.pdf)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  12장 (송원종)
+|  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) (박세진)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  11장  Smarter Email Marketing with the Markov Model (박혜진)](https://github.com/biospin/BigBio/blob/master/part05/week01_160628/11.MarkovModel.pdf)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  12장 K-Means Clustering(송원종)
 |  2 |2016. 7. 5|(구글 genomics) [Running Custom Pipelines](https://cloud.google.com/genomics/v1alpha2/pipelines) (이승우)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  13장 (이창언)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  14장 (지용기)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  13장 k-Nearest Neighbors(이창언)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  14장 Naive Bayes(지용기)
 |  3 |2016. 7.12|(구글 genomics) [Google Genomics Public Data](https://cloud.google.com/genomics/v1/public-data)
 |    |          |full list of published data정리, 3가지 access방법에 대한 예제 보여주기
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  15장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  16장
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  15장 Sentiment Analysis
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  16장 Finding, Counting, and Listing All Triangles in Large Graphs
 |  4 |2016. 7.19|(구글 genomics)[Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  17장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  18장
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  17장 K-mer Counting
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  18장 DNA Sequencing
 
 ### Part 6.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
 |  1 |2016. 7.26|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  19장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  20장
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  19장 Cox Regression
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  20장 Cochran-Armitage Test for Trend
 |  2 |2016. 8. 2|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  21장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  22장
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  21장 Allelic Frequency
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  22장 The T-Test
 |  3 |2016. 8. 9|(구글 genomics) [Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  23장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  24장
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  23장 Pearson Correlation
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  24장 DNA Base Count
 |  4 |2016. 8.16|(구글 genomics) [Docs » Analyze Data in Google Genomics » Analyze Reads](http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  25장
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  26장
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  25장 RNA Sequencing
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  26장 Gene Aggregation
 
 
 ### 스케줄에 없는 구글 genomics 문서들  
