@@ -165,7 +165,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  12장 K-Means Clustering(송원종)
 |  2 |2016. 7. 5|(구글 genomics) [Running Custom Pipelines](https://cloud.google.com/genomics/v1alpha2/pipelines) (이승우)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  13장 k-Nearest Neighbors(이창언)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  14장 Naive Bayes(지용기)
+|    |          |(빅데이터 유전체 분석) [Data Algorithms:  14장 Naive Bayes(지용기)](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/data_algorithms/Chap14_NavieBayes.ipynb)
 |  3 |2016. 7.12|(구글 genomics) [Google Genomics Public Data](https://cloud.google.com/genomics/v1/public-data)
 |    |          |full list of published data정리, 3가지 access방법에 대한 예제 보여주기
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  15장 Sentiment Analysis
