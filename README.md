@@ -161,6 +161,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
 |  1 |2016. 6.28|(구글 genomics) [Broad Institute GATK on Google Genomics](https://cloud.google.com/genomics/gatk) (박세진)
+|    |          |[GATK 자료1](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/GATKwr8-A-1-Workshop_intro.pdf), [GATK 자료2](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/GATKwr8-A-2-Intro_to_HTS.pdf), [GATK 자료3](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/GATKwr8-A-3-GATK_Best_Practices_and_Broad_pipelines.pdf)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  11장  Smarter Email Marketing with the Markov Model (박혜진)](https://github.com/biospin/BigBio/blob/master/part05/week01_160628/11.MarkovModel.pdf)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  12장 K-Means Clustering(송원종)](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/K-Means%20Clustering.pdf)
 |  2 |2016. 7. 5|(구글 genomics) [Running Custom Pipelines](https://cloud.google.com/genomics/v1alpha2/pipelines) [발표자료](https://github.com/biospin/BigBio/blob/master/part05/week02_160705/%EA%B5%AC%EA%B8%80%EC%A7%80%EB%85%B8%EB%AF%B9%EC%8A%A4_%EB%B9%A0%EC%9D%B4%EC%81%98%EB%9D%BC%EC%9D%B8_%EC%8B%A4%ED%96%89.md) (이승우)
