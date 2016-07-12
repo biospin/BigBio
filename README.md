@@ -142,7 +142,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
 |  1 |2016.5.31|(구글 genomics) https://cloud.google.com/genomics/what-is-google-genomics : 
-|    |          |    What Is Google Genomics?,  Pricing and Quotas ,   Getting Started (이승우)
+|    |          |    [What Is Google Genomics?,  Pricing and Quotas ,   Getting Started](https://github.com/biospin/BigBio/blob/master/part04/week01_160531/Getting%20Started%20With%20Google%20Genomics.pdf) (이승우)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  1장 , 2장 : Secondary Sort (박세진)
 |  2 |2016.6.7  |(구글 genomics) [How-to Guide: Analyze Variants Using BigQuery](https://cloud.google.com/genomics/v1/analyze-variants)( 조익연 )[발표자료](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/Google%20Genomics_BigQuery.pdf)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  5장  Order Inversion ( 박혜진 )](https://github.com/biospin/BigBio/blob/master/part04/week02_160607/oiPattern.pdf)
