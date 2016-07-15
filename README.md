@@ -171,9 +171,9 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |full list of published data정리, 3가지 access방법에 대한 예제 보여주기 (손준영)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  15장 Sentiment Analysis (송원종)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  16장 Finding, Counting, and Listing All Triangles in Large Graphs](https://github.com/biospin/BigBio/blob/master/part05/week03_160712/data_algorithms/chap16_Finding%2C%20Counting%2C%20and%20Listing%20All%20Triangles%20in%20Large%20Graphs.ipynb) (지용기)
-|  4 |2016. 7.19|(구글 genomics)[Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  17장 K-mer Counting
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  18장 DNA Sequencing
+|  4 |2016. 7.19|(구글 genomics)[Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html) (손준영)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  17장 K-mer Counting (지용기)
+|    |          |(빅데이터 유전체 분석) Data Algorithms:  18장 DNA Sequencing (김가경)
 
 ### Part 6.
 
