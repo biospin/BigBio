@@ -173,7 +173,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  16장 Finding, Counting, and Listing All Triangles in Large Graphs](https://github.com/biospin/BigBio/blob/master/part05/week03_160712/data_algorithms/chap16_Finding%2C%20Counting%2C%20and%20Listing%20All%20Triangles%20in%20Large%20Graphs.ipynb) (지용기)
 |  4 |2016. 7.19|(구글 genomics)[Docs » Process Data on Google Cloud »  Run workflows and common tasks in parallel](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_pipelines_in_the_cloud/index.html) (손준영)
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  17장 K-mer Counting](https://github.com/biospin/BigBio/blob/master/part05/week04_160719/dataalgorith/Chap17_K-merCounting.ipynb) (지용기)
-|    |          |(빅데이터 유전체 분석) Data Algorithms:  18장 DNA Sequencing (김가경)
+|    |          |[(빅데이터 유전체 분석) Data Algorithms:  18장 DNA Sequencing](https://github.com/biospin/BigBio/blob/master/part05/week04_160719/CHAPTER%2018%20DNA%20Sequencing.ipynb) (김가경)
 
 ### Part 6.
 
