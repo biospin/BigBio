@@ -175,20 +175,21 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 유전체 분석) [Data Algorithms:  17장 K-mer Counting](https://github.com/biospin/BigBio/blob/master/part05/week04_160719/dataalgorith/Chap17_K-merCounting.ipynb) (지용기)
 |    |          |[(빅데이터 유전체 분석) Data Algorithms:  18장 DNA Sequencing](https://github.com/biospin/BigBio/blob/master/part05/week04_160719/CHAPTER%2018%20DNA%20Sequencing.ipynb) (김가경)
 
-### Part 6.
+
+### Part 6.  => 진행하지 않고 종강함.  아래 내용은 R바이오에 포함됨.
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
-|  1 |2016. 7.26|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html)
+|  1 |2016. x.xx|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster on Compute Engine](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/index.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  19장 Cox Regression
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  20장 Cochran-Armitage Test for Trend
-|  2 |2016. 8. 2|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html)
+|  2 |2016. x.xx|(구글 genomics)[Docs » Process Data on Google Cloud » Create a Grid Engine cluster with Preemptible VM workers](http://googlegenomics.readthedocs.io/en/latest/use_cases/setup_gridengine_cluster_on_compute_engine/preemptible_vms.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  21장 Allelic Frequency
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  22장 The T-Test
-|  3 |2016. 8. 9|(구글 genomics) [Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html)
+|  3 |2016. x.xx|(구글 genomics) [Docs » Process Data on Google Cloud » Run SAMtools to index BAM files in Cloud Storage](http://googlegenomics.readthedocs.io/en/latest/use_cases/run_samtools_over_many_files/index.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  23장 Pearson Correlation
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  24장 DNA Base Count
-|  4 |2016. 8.16|(구글 genomics) [Docs » Analyze Data in Google Genomics » Analyze Reads](http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html)
+|  4 |2016. x.xx|(구글 genomics) [Docs » Analyze Data in Google Genomics » Analyze Reads](http://googlegenomics.readthedocs.io/en/latest/use_cases/analyze_reads/index.html)
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  25장 RNA Sequencing
 |    |          |(빅데이터 유전체 분석) Data Algorithms:  26장 Gene Aggregation
 
