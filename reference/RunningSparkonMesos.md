@@ -62,6 +62,10 @@ zk://darwin:2181,babelpish:2181,psygrammer:2181/mesos
 
 > sudo service mesos-slave restart
 
+### 구동 확인
+- Mesos console : http://<master-ip>:5050 
+- Marathon console : http://<master-ip>:8080
+
 
 ## 도커 설치
 
