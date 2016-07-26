@@ -11,7 +11,9 @@ Jupyter와 R 연동방법
 # Jupyer와 R 연동방법
 - conda설치후에 커맨트창에서 아래와 같이 명령어를 실행시킴.
 ```
-conda install -c r r-essentials
+conda install -c r r-essentials  # 3.1.x   
+or 
+conda install -c r r=3.3.1
 ```
 
 # 실행방법 
