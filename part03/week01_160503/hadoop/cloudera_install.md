@@ -21,7 +21,7 @@
 ### 지원되는 데이터베이스(UTF8 character set encoding 지원필요)
 - MySQL , MariaDB , Oracle 11, Oracle 12, PostgreSQL 
 	
-### 요구되는 리소스
+### 요구되는 최소 리소스
 - 디스크 용량
     - Cloudera Manager Server( 관리서버 )
          - /var : 5 GB
@@ -133,7 +133,7 @@ pscp -h ~/hosts.txt /etc/sysconfig/selinux  /etc/sysconfig/selinux
 
 - swappiness 설정
 ```
-pssh -h ~/all_hosts.txt  'sysctl –w vm.swappiness=0'
+pssh -h ~/all_hosts.txt  'sysctl -w vm.swappiness=0'
 
 echo 'vm.swappiness=0' >> /etc/sysctl.conf
  
@@ -143,8 +143,10 @@ pscp -h ~/hosts.txt  /etc/sysctl.conf   /etc/sysctl.conf
 - transparent_hugepage 설정
 ```
 pssh -h ~/all_hosts.txt   echo never > /sys/kernel/mm/transparent_hugepage/defrag
+pssh -h ~/all_hosts.txt   echo never > /sys/kernel/mm/transparent_hugepage/enabled
 cat <<EOT >>  /etc/rc.local
 echo never > /sys/kernel/mm/transparent_hugepage/defrag
+echo never > /sys/kernel/mm/transparent_hugepage/enabled
 EOT
 
 pscp -h ~/hosts.txt /etc/rc.local  /etc/rc.local
