@@ -117,6 +117,20 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 
 |seq.|    날짜      |내용                                                                                     | 후기
 |----| ---------|----------------------------------------------|-----
+<<<<<<< HEAD
+|  1 |2016.5.3  |(딥러닝 실습) 암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )(지용기)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 3장(이승우)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 4장(박헤진)
+|  2 |2016.5.10 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( 회귀모형)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 5장(손준영)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 6장
+|  3 |2016.5.17 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발( MLP)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 7장
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 8장
+|  4 |2016.5.24 |(딥러닝 실습) TensorFlow을 사용해서  암 환자 유전체에서 암 예측 모델 개발(DBN)
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 9장
+|    |          |(빅데이터 기초) 러닝 스파크(Learning Spark) : 11장
+=======
 |  1 |2016.5.3  |(딥러닝 실습) [암 환자의 유전체데이터  및 데이터 변환작업 소개 ( TCGA )(지용기)](https://github.com/biospin/DeepBio/blob/master/exercise01/mRNA_make_feature.ipynb)
 |    |          |[(빅데이터 기초) 러닝 스파크(Learning Spark) 이론 : 3장(이승우)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/Programming%20with%20RDDs.pdf)
 |    |          |[(빅데이터 기초) 러닝 스파크(Learning Spark) 실습 : 3장(이승우)](https://github.com/biospin/BigBio/blob/master/part03/week01_160503/Getting_Started_with_RDDs.ipynb)
@@ -135,6 +149,7 @@ https://drive.google.com/drive/folders/0B6bSLTlVnagfTFJqV0dwRGdGMWs
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 9장(박세진)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/BIGBIO_LearningSpark_ch9_SPARKSQL.ipynb)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 이론(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/learning.spark.11.MachineLearningwithMLlib.ipynb)
 |    |          |(빅데이터 기초) [러닝 스파크(Learning Spark) : 11장 실습(지용기)](https://github.com/biospin/BigBio/blob/master/part03/week04_160525/spark/05.Building%20a%20Classification%20Model%20with%20Spark.ipynb)
+>>>>>>> refs/remotes/biospin/master
 
 
 ### Part 4.
